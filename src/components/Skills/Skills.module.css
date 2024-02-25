@@ -42,7 +42,6 @@
 
 .logo {
     width: 100px;
-    
 }
 
 .logoContent:hover {
@@ -51,7 +50,16 @@
 }
 
 @media screen and (max-width:768px) {
-    .title{
+    .title {
         font-size: 4em;
+    }
+
+    .logoContent {
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo{
+        width: 70px;
     }
 }
