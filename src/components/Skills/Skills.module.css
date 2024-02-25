@@ -51,15 +51,22 @@
 
 @media screen and (max-width:768px) {
     .title {
-        font-size: 4em;
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .title {
+        font-size: 3em;
     }
 
     .logoContent {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
+        font-size: .7em;
     }
 
     .logo{
-        width: 70px;
+        width: 50px;
     }
 }
