@@ -49,3 +49,9 @@
     transition: .5s;
     transform: scale(1.1);
 }
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 4em;
+    }
+}

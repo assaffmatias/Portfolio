@@ -33,12 +33,12 @@
     margin: 0;
 }
 
-
 .title {
     font-family: "DM Sans", sans-serif;
     font-weight: 1000;
     font-size: 7em;
     margin: 0;
+    text-align: center;
 }
 
 .pContent {
@@ -54,4 +54,18 @@
     color: #1c2027;
     padding: 0 .5em;
     border-radius: 8px;
+}
+
+@media screen and (max-width:860px) {
+    .greetingContent{
+        justify-content: center;
+    }
+
+    .title{
+        font-size: 5em;
+    }
+
+    .pContent{
+        justify-content: center;
+    }
 }

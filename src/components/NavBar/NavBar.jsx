@@ -1,5 +1,6 @@
 import style from './NavBar.module.css'
 import logo from '../../assets/logo.png'
+import nav from '../../assets/nav-menu.svg'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -36,13 +37,16 @@ const NavBar = () => {
             <div className={style.logoContainer}>
                 <img src={logo} alt="" className={style.logo} />
             </div>
+            <div className={style.navMobile}>
+                <img src={nav} alt="" className={style.burger}/>
+            </div>
             <div className={style.linkContainer}>
                 <a href='#home' className={style.link} onClick={(e) => handleClick(e, '#home')}>Home</a>
                 <a href='#about' className={style.link} onClick={(e) => handleClick(e, '#about')}>About</a>
-                <a href='#works' className={style.link} onClick={(e) => handleClick(e, '#works')}>Works</a>
                 <a href='#skills' className={style.link} onClick={(e) => handleClick(e, '#skills')}>Skills</a>
+                <a href='#works' className={style.link} onClick={(e) => handleClick(e, '#works')}>Works</a>
                 <a href='#contact' className={style.link} onClick={(e) => handleClick(e, '#contact')}>Contact</a>
-                <div>
+                <div className={style.leng}>
                     <Link className={style.link_i}>ES</Link>
                     <Link className={style.link_i}>EN</Link>
                 </div>

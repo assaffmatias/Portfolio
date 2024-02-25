@@ -24,10 +24,8 @@
 
 .linkContainer {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-weight: 600;
-    width: 30%;
     margin-right: 2em;
 }
 
@@ -35,10 +33,15 @@
     text-decoration: none;
     color: #fff;
     transition: .3s;
+    margin: 0 .7em;
 }
 
 .link:hover {
     color: #fdaa1e;
+}
+
+.leng{
+    margin-left: .5em;
 }
 
 .link_i {
@@ -50,4 +53,28 @@
 
 .link_i:hover {
     color: #fff;
+}
+
+.navMobile{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .linkContainer{
+        display: none;
+    }
+
+    .navMobile{
+        display: flex;
+        margin-right: 1em;
+    }
+
+    .burger{
+        width: 60px;
+        filter: brightness(0) invert(1)
+    }
+
+    .logoContainer {
+        margin-left: 1em;
+    }
 }
