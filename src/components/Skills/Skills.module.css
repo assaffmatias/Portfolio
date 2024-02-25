@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    margin: 8em 2em;
+}
+
+.title {
+    margin: 0;
+    font-size: 5em;
+    color: #fff;
+}
+
+.hr {
+    margin: 0;
+    border: 2px solid #fdaa1e;
+}
+
+.mainContent {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #201f23;
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    color: #fff;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 13px #0d0c0e,
+        -5px -5px 13px #333238;
+    transition: .5s;
+}
+
+.logo {
+    width: 100px;
+    
+}
+
+.logoContent:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}

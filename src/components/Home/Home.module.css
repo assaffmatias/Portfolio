@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/portfolio-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(
+    to bottom,
+    white 60%,
+    transparent 95%
+  );
+}
+
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.greetingContent {
+    display: flex;
+    width: 100%;
+}
+
+.greeting {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+
+.title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 7em;
+    margin: 0;
+}
+
+.pContent {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.p {
+    margin: .2em 0;
+    font-size: 1.8em;
+    background-color: #fdaa1e;
+    color: #1c2027;
+    padding: 0 .5em;
+    border-radius: 8px;
+}

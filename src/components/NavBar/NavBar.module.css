@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 14vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoContainer{
+    margin-left: 2em;
+}
+
+.logo{
+    width: 100px;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    width: 30%;
+    margin-right: 2em;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.link:hover{
+    color: #fdaa1e;
+}

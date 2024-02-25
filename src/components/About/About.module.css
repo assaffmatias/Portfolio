@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 6em 2em;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.title{
+    margin: 0;
+    font-size: 5em;
+    color: #fff;
+}
+
+.hr{
+    margin: 0;
+    border: 2px solid #fdaa1e;
+}
+
+.aboutContent{
+    margin-top: 3em;
+}
+
+.about{
+    opacity: 0.7;
+}
