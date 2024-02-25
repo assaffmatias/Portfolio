@@ -13,7 +13,7 @@ import postgres from '../../assets/postgres.png'
 
 const Skills = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container}  id='skills'>
             <div>
                 <h2 className={style.title}>Skills</h2>
                 <hr className={style.hr} />

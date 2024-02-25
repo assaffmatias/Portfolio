@@ -2,7 +2,7 @@ import style from './Home.module.css'
 
 const Home = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='home'>
             <div className={style.titleContent}>
                 <div className={style.greetingContent}>
                     <p className={style.greeting}>👋 Hi, my name is</p>

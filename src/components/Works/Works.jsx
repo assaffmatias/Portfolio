@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Works = () => {
     return (
-        <div className={style.container}>
+        <div className={style.container} id='works'>
             <div>
                 <h2 className={style.title}>My</h2>
                 <h2 className={style.title}>Works</h2>

@@ -1,21 +1,28 @@
-.container{
+.container {
     display: flex;
     position: fixed;
+    top: 0;
+    left: 0;
     justify-content: space-between;
     height: 14vh;
     width: 100%;
     z-index: 1;
+    transition: transform 0.3s ease;
 }
 
-.logoContainer{
+.hidden {
+    transform: translateY(-100%);
+}
+
+.logoContainer {
     margin-left: 2em;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-.linkContainer{
+.linkContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,12 +31,23 @@
     margin-right: 2em;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #fff;
     transition: .3s;
 }
 
-.link:hover{
+.link:hover {
     color: #fdaa1e;
+}
+
+.link_i {
+    margin: 0 .3em;
+    text-decoration: none;
+    color: #fdaa1e;
+    transition: .3s;
+}
+
+.link_i:hover {
+    color: #fff;
 }
