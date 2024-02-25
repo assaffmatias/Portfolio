@@ -21,15 +21,9 @@
     border: 2px solid #fdaa1e;
 }
 
-.aboutContent {
-    width: 100%;
-    margin-top: 3em;
-}
 
-.about {
-    width: 100%;
-    /* opacity: 0.7; */
-}
+
+
 
 @media screen and (max-width:768px) {
     .title{

@@ -49,7 +49,7 @@
 
 .p {
     margin: .2em 0;
-    font-size: 1.8em;
+    font-size: 1.5em;
     background-color: #fdaa1e;
     color: #1c2027;
     padding: 0 .5em;
@@ -58,14 +58,24 @@
 
 @media screen and (max-width:860px) {
     .greetingContent{
-        justify-content: center;
+        justify-content: start;
     }
 
     .title{
-        font-size: 5em;
+        font-size: 3em;
     }
 
     .pContent{
         justify-content: center;
+    }
+
+    .p{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:360px){
+    .title{
+        font-size: 2.5em;
     }
 }
