@@ -28,7 +28,7 @@
 .formContainer{
     display: flex;
     justify-content: center;
-    margin-top: 4em;
+    margin-top: 2em;
     /* background-color: lightblue; */
 }
 
@@ -112,7 +112,7 @@
     display: flex;
     justify-content: center;
     color: #fdaa1e;
-    margin-top: 1em;
+    margin: 0;
 }
 
 
