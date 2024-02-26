@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     top: 0;
     left: 0;
@@ -12,7 +12,13 @@
 }
 
 .hidden {
-    transform: translateY(-100%);
+    position: fixed;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px)
+    /* transform: translateY(-100%); */
+
 }
 
 .logoContainer {
@@ -41,7 +47,7 @@
     color: #fdaa1e;
 }
 
-.leng{
+.leng {
     margin-left: .5em;
 }
 
@@ -56,12 +62,12 @@
     color: #fff;
 }
 
-.navMobile{
+.navMobile {
     display: none;
 }
 
 @media screen and (max-width:768px) {
-    .container{
+    .container {
         height: 10vh;
     }
 
@@ -69,16 +75,16 @@
         width: 80px;
     }
 
-    .linkContainer{
+    .linkContainer {
         display: none;
     }
 
-    .navMobile{
+    .navMobile {
         display: flex;
         margin-right: 1em;
     }
 
-    .burger{
+    .burger {
         width: 40px;
         filter: brightness(0) invert(1)
     }
@@ -88,6 +94,4 @@
     }
 }
 
-@media screen and (max-width:640px){
-    
-}
+@media screen and (max-width:640px) {}
