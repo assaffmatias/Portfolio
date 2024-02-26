@@ -79,6 +79,10 @@
         margin-right: 0;
     }
 
+    .link{
+        font-size: .8em;
+    }
+
     .link_i{
         display: none;
     }
