@@ -69,7 +69,6 @@
 @media screen and (max-width:768px) {
     .container {
         height: 7vh;
-        padding-top: 1em;
     }
 
     .logo {
