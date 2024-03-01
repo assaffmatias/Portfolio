@@ -2,6 +2,7 @@ import style from './Contact.module.css'
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
+    
     return (
         <div className={style.container}>
             <div className={style.mainContent}>
@@ -30,7 +31,7 @@ const Contact = () => {
                 </Link>
             </div>
             <div className={style.build}>
-                <p>Built by Matias Assaff</p>
+                <p className={style.p}>Built by Matias Assaff</p>
             </div>
         </div>
     )

@@ -25,21 +25,21 @@
     border: 2px solid #fdaa1e;
 }
 
-.formContainer{
+.formContainer {
     display: flex;
     justify-content: center;
     margin-top: 2em;
     /* background-color: lightblue; */
 }
 
-.formContent{
+.formContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 65%;
 }
 
-.input{
+.input {
     margin: 1em 0;
     border: none;
     border-radius: 3px;
@@ -51,11 +51,11 @@
     font-size: 1em;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
 }
 
-.textarea{
+.textarea {
     margin: 1em 0;
     border: none;
     border-radius: 3px;
@@ -68,11 +68,11 @@
     padding: 10px;
 }
 
-.textarea:focus{
+.textarea:focus {
     outline: none;
 }
 
-.submit{
+.submit {
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
     width: 150px;
@@ -87,51 +87,51 @@
     transition: .5s;
 }
 
-.submit:hover{
+.submit:hover {
     color: #fdaa1e;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     margin-top: 4em;
 }
 
-.svg{
+.svg {
     color: #fff;
-    width: 40px;
-    height: 40px;
-    margin: 0 2.5em;
+    width: 35px;
+    height: 35px;
+    margin: 0 2em;
 }
 
-.svg:hover{
+.svg:hover {
     color: #fdaa1e;
 }
 
-.build{
+.build {
     display: flex;
     justify-content: center;
     color: #fdaa1e;
     margin: 0;
 }
 
+.p{
+    margin: 0.2em 0;
+}
+
 
 @media screen and (max-width:768px) {
-    .title{
+    .title {
         font-size: 3.5em;
     }
 
-    .formContent{
+    .formContent {
         width: 90%;
     }
 }
 
-@media screen and (max-width: 640px){
-    .container{
-        margin: 2em 1em;
-    }
-    
-    .title{
+@media screen and (max-width: 640px) {
+    .title {
         font-size: 3em;
     }
 }

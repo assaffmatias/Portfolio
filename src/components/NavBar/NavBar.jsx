@@ -37,9 +37,6 @@ const NavBar = () => {
             <div className={style.logoContainer}>
                 <img src={logo} alt="" className={style.logo} />
             </div>
-            <div className={style.navMobile}>
-                <img src={nav} alt="" className={style.burger}/>
-            </div>
             <div className={style.linkContainer}>
                 <a href='#home' className={style.link} onClick={(e) => handleClick(e, '#home')}>Home</a>
                 <a href='#about' className={style.link} onClick={(e) => handleClick(e, '#about')}>About</a>

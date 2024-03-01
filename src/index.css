@@ -5,6 +5,8 @@ body{
   padding: 0;
   background-color: #1a191d;
   font-family: "Open Sans", sans-serif;
+  /* desactivar el resaltado tactil */
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::selection{
