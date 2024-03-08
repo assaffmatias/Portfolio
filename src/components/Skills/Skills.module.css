@@ -42,7 +42,6 @@
 .logo {
     padding-top: 1em;
     width: 80px;
-    border-radius: 8px;
 }
 
 .logoContent:hover {
@@ -58,6 +57,7 @@
     .title {
         font-size: 3em;
     }
+
 }
 
 @media screen and (max-width: 640px){
@@ -66,12 +66,14 @@
     }
 
     .logoContent {
-        width: 130px;
-        height: 130px;
+        width: 80px;
+        height: 80px;
         font-size: .7em;
+        box-shadow: 3px 3px 8px #0d0c0e,
+            -3px -3px 8px #333238;
     }
 
     .logo{
-        width: 50px;
+        width: 30px;
     }
 }
