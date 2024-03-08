@@ -113,6 +113,8 @@
     justify-content: center;
     color: #fdaa1e;
     margin: 0;
+    padding-top: .5em;
+    font-weight: 600;
 }
 
 .p{
