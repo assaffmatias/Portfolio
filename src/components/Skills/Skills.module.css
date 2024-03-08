@@ -34,8 +34,8 @@
     margin: 1em;
     color: #fff;
     border-radius: 8px;
-    box-shadow: 6px 6px 16px #0d0c0e,
-            -6px -6px 16px #333238;
+    box-shadow: 5px 5px 13px #0d0c0e,
+        -5px -5px 13px #333238;
     transition: .5s;
 }
 
