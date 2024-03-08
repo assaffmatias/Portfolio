@@ -145,6 +145,10 @@
     .navMobile {
         display: block;
     }
+
+    .logoContainer{
+        margin-left: 1em;
+    }
 }
 
 @media screen and (max-width:450px) {
