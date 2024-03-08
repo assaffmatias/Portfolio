@@ -66,6 +66,7 @@
 }
 
 .burger{
+    cursor: pointer;
     width: 30px;
     margin-right: 1em;
     filter: brightness(0) invert(1);
@@ -95,6 +96,7 @@
 }
 
 .button{
+    cursor: pointer;
     border: none;
     background-color: transparent;
     font-size: 1.5em;

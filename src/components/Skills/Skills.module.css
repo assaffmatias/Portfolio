@@ -34,8 +34,8 @@
     margin: 1em;
     color: #fff;
     border-radius: 8px;
-    box-shadow: 5px 5px 13px #0d0c0e,
-        -5px -5px 13px #333238;
+    box-shadow: 6px 6px 16px #0d0c0e,
+            -6px -6px 16px #333238;
     transition: .5s;
 }
 
@@ -66,11 +66,11 @@
     }
 
     .logoContent {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         font-size: .7em;
-        box-shadow: 3px 3px 8px #0d0c0e,
-            -3px -3px 8px #333238;
+        box-shadow: 4px 4px 10px #0d0c0e,
+            -4px -4px 10px #333238;
     }
 
     .logo{
