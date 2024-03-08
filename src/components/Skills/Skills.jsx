@@ -54,7 +54,7 @@ const Skills = () => {
                 </div>
                 <div className={style.logoContent}>
                     <img src={next} alt="" className={style.logo}/>
-                    <h3>Next.js</h3>
+                    <h3>Next JS</h3>
                 </div>
                 <div className={style.logoContent}>
                     <img src={git} alt="" className={style.logo}/>
@@ -62,7 +62,7 @@ const Skills = () => {
                 </div>
                 <div className={style.logoContent}>
                     <img src={node} alt="" className={style.logo}/>
-                    <h3>Node.js</h3>
+                    <h3>Node JS</h3>
                 </div>
                 <div className={style.logoContent}>
                     <img src={sequelize} alt="" className={style.logo}/>
