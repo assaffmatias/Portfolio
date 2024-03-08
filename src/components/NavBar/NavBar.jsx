@@ -9,12 +9,20 @@ import i18n from '../../i18n';
 const NavBar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const { i18n } = useTranslation();
     const { t } = useTranslation();
 
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden';
+    };
+
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
+        // setIsMenuOpen(false);
+        document.body.style.overflow = 'auto';
     };
 
     const handleClick = (e, targetId) => {
@@ -23,6 +31,15 @@ const NavBar = () => {
         if (targetElement) {
             targetElement.scrollIntoView({ behavior: 'smooth' });
         }
+    };
+
+    const handleClickMobile = (e, targetId) => {
+        e.preventDefault();
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+        setIsMenuOpen(false);
     };
 
     useEffect(() => {
@@ -56,6 +73,28 @@ const NavBar = () => {
                     <Link className={style.link_i} onClick={() => changeLanguage('es')}>ES</Link>
                     <Link className={style.link_i} onClick={() => changeLanguage('en')} >EN</Link>
                 </div>
+            </div>
+            <div className={style.navMobile}>
+                {isMenuOpen ? (
+                    <div className={`${style.mobileContent} ${style.menuOpen}`}>
+                        <div className={style.buttonContainer}>
+                            <button className={style.button} onClick={toggleMenu}>X</button>
+                        </div>
+                        <div className={style.linkMobileContainer}>
+                            <div>
+                                <Link className={style.linkMobile_i} onClick={() => changeLanguage('es')}>ES</Link>
+                                <Link className={style.linkMobile_i} onClick={() => changeLanguage('en')} >EN</Link>
+                            </div>
+                            <Link to='#home' className={style.linkMobile} onClick={(e) => handleClickMobile(e, '#home')}>{t('home')}</Link>
+                            <Link to='#about' className={style.linkMobile} onClick={(e) => handleClickMobile(e, '#about')}>{t('about')}</Link>
+                            <Link to='#skills' className={style.linkMobile} onClick={(e) => handleClickMobile(e, '#skills')}>{t('skills')}</Link>
+                            <Link to='#works' className={style.linkMobile} onClick={(e) => handleClickMobile(e, '#works')}>{t('works')}</Link>
+                            <Link to='#contact' className={style.linkMobile} onClick={(e) => handleClickMobile(e, '#contact')}>{t('contact')}</Link>
+                        </div>
+                    </div>
+                ) : (
+                    <img src={nav} alt="Menu" className={style.burger} onClick={toggleMenu} />
+                )}
             </div>
         </div>
     )
