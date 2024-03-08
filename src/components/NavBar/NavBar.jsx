@@ -15,8 +15,8 @@ const NavBar = () => {
     const { t } = useTranslation();
 
     const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
         document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden';
+        setIsMenuOpen(!isMenuOpen);
     };
 
     const changeLanguage = (lng) => {
@@ -39,6 +39,7 @@ const NavBar = () => {
             targetElement.scrollIntoView({ behavior: 'smooth' });
         }
         setIsMenuOpen(false);
+        document.body.style.overflow = 'auto';
     };
 
     useEffect(() => {
