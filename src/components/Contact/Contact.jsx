@@ -1,22 +1,31 @@
 import style from './Contact.module.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+import i18n from '../../i18n';
 
 const Contact = () => {
+    const { i18n } = useTranslation();
+    const { t } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
+
     
     return (
         <div className={style.container}>
             <div className={style.mainContent}>
                 <div className={style.titleContent}>
-                    <h2 className={style.title} id='contact'>Contact</h2>
+                    <h2 className={style.title} id='contact'>{t('contact')}</h2>
                     <hr className={style.hr} />
                 </div>
             </div>
             <div className={style.formContainer}>
                 <form action="" className={style.formContent}>
-                    <input type="text" className={style.input} placeholder='Name' />
-                    <input type="text" className={style.input} placeholder='Email' />
-                    <textarea name="" id="" cols="30" rows="10" className={style.textarea} ></textarea>
-                    <button type='submit' className={style.submit}>Submit</button>
+                    <input type="text" className={style.input} placeholder={t('contactName')} />
+                    <input type="text" className={style.input} placeholder={t('contactEmail')} />
+                    <textarea name="" id="" cols="30" rows="10" className={style.textarea} placeholder={t('contactMessage')} ></textarea>
+                    <button type='submit' className={style.submit}>{t('contactSubmit')}</button>
                 </form>
             </div>
             <div className={style.contact}>
@@ -31,7 +40,7 @@ const Contact = () => {
                 </Link>
             </div>
             <div className={style.build}>
-                <p className={style.p}>Built by Matias Assaff</p>
+                <p className={style.p}>{t('builtBy')}</p>
             </div>
         </div>
     )

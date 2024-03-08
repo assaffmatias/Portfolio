@@ -10,12 +10,21 @@ import git from '../../assets/git.png'
 import node from '../../assets/node.png'
 import sequelize from '../../assets/sequelize.png'
 import postgres from '../../assets/postgres.png'
+import { useTranslation } from 'react-i18next';
+import i18n from '../../i18n';
 
 const Skills = () => {
+    const { i18n } = useTranslation();
+    const { t } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
+
     return (
         <div className={style.container}  id='skills'>
             <div>
-                <h2 className={style.title}>Skills</h2>
+                <h2 className={style.title}>{t('skills')}</h2>
                 <hr className={style.hr} />
             </div>
             <div className={style.mainContent}>
