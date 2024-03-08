@@ -22,7 +22,6 @@ const NavBar = () => {
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
         // setIsMenuOpen(false);
-        document.body.style.overflow = 'auto';
     };
 
     const handleClick = (e, targetId) => {
@@ -78,7 +77,7 @@ const NavBar = () => {
                 {isMenuOpen ? (
                     <div className={`${style.mobileContent} ${style.menuOpen}`}>
                         <div className={style.buttonContainer}>
-                            <button className={style.button} onClick={toggleMenu}>X</button>
+                            <button className={style.button} onClick={toggleMenu}>✘</button>
                         </div>
                         <div className={style.linkMobileContainer}>
                             <div>
