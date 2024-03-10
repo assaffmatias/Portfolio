@@ -82,7 +82,7 @@
 .imgContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 0 1em;
     /* background-color: black; */
 
@@ -127,6 +127,10 @@
 @media screen and (max-width: 640px){
     .title {
         font-size: 3em;
+    }
+
+    .skillContent{
+        height: 450px;
     }
 
 }
