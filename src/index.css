@@ -8,6 +8,8 @@ body{
   padding: 0;
   background-color: #1a191d;
   font-family: "Poppins", sans-serif;
+  user-select: none;
+
   /* desactivar el resaltado tactil */
   -webkit-tap-highlight-color: transparent;
 }
