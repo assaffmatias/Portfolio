@@ -1,14 +1,8 @@
 import style from './Home.module.css'
 import { useTranslation } from 'react-i18next';
-import i18n from '../../i18n';
 
 const Home = () => {
-    const { i18n } = useTranslation();
     const { t } = useTranslation();
-
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
-    };
 
     const scrollDown = () => {
         // Encuentra el elemento al que deseas desplazarte

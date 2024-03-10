@@ -14,6 +14,9 @@ const Contact = () => {
     const email = 'matias.assaff98@gmail.com'
     const url = `mailto:${email}`
 
+    const handleSubmit = (event) => {
+        event.preventDefault()
+    }
 
     return (
         <div className={style.container}>
@@ -24,7 +27,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className={style.formContainer}>
-                <form action="" className={style.formContent}>
+                <form action="" className={style.formContent} onSubmit={handleSubmit}>
                     <input type="text" className={style.input} placeholder={t('contactName')} />
                     <input type="text" className={style.input} placeholder={t('contactEmail')} />
                     <textarea name="" id="" cols="30" rows="10" className={style.textarea} placeholder={t('contactMessage')} ></textarea>

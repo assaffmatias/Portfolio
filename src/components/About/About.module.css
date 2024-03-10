@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -21,18 +25,86 @@
     border: 2px solid #fdaa1e;
 }
 
-.aboutContent {
-    width: 100%;
-    margin-top: 3em;
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em;
+    /* background-color: lightblue; */
+    width: 90vw;
 }
 
-.about {
-    width: 100%;
-    /* opacity: 0.7; */
+.span{
+    font-size: 32px;
+    font-weight: 600;
+    z-index: 0;
+    position: relative;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
 
-.aboutmob{
-    display: none;
+.span::after{
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.elementorWidgetContainer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.p{
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 1.5em .5em;
+
+}
+
+.editorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.line{
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    /* rotate: 90deg; */
+    opacity: 0.3;
+}
+
+.open, .close{
+    opacity: 0.3;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+}
+
+.open{
+    margin-bottom: .5em;
+}
+
+.close{
+    margin-top: .5em;
+}
+
+.elementorHeadingTitle {
+    color: #fff;
+    font-family: "Roboto Mono", Sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
 }
 
 @media screen and (max-width:768px) {
@@ -40,14 +112,6 @@
         font-size: 3em;
     }
 
-    .about{
-        display: none;
-    }
-
-    .aboutmob{
-        display: flex;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 640px){
