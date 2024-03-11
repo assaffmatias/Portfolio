@@ -109,6 +109,10 @@
         height: 450px;
         margin: 1em 0;
     }
+
+    .dataContent{
+        height: 25%;
+    }
 }
 
 @media screen and (max-width:640px){
