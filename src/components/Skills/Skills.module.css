@@ -108,6 +108,10 @@
         font-size: 3em;
     }
 
+    .titleContent{
+        margin-right: .5em;
+    }
+
 }
 
 @media screen and (max-width: 640px){
@@ -117,6 +121,7 @@
 
     .skillContent{
         width: 100%;
+        /* height: 240px; */
     }
 
 }

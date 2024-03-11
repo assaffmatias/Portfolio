@@ -24,7 +24,7 @@ const Skills = () => {
 
     return (
         <div className={style.container} id='skills'>
-            <div>
+            <div className={style.titleContent}>
                 <h2 className={style.title}>{t('skills')}</h2>
                 <hr className={style.hr} />
             </div>
