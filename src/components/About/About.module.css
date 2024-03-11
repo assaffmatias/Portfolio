@@ -51,13 +51,13 @@
     height: 0.3em;
     width: 104%;
     left: -1%;
-    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #74777b75 0%, #74777b02 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .elementorWidgetContainer{
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 70%;
 }
 
 .p{

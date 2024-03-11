@@ -10,6 +10,9 @@ import git from '../../assets/git.png'
 import node from '../../assets/node.png'
 import sequelize from '../../assets/sequelize.png'
 import postgres from '../../assets/postgres.png'
+import tailwind from '../../assets/tailwind.svg'
+import github from '../../assets/github.svg'
+import vsc from '../../assets/vsc.svg'
 import frontend from '../../assets/frontend.svg'
 import backend from '../../assets/backend.svg'
 import tools from '../../assets/tools.svg'
@@ -36,31 +39,13 @@ const Skills = () => {
                     <div className={style.imgContainer}>
                         <div className={style.imgContent}>
                             <img src={html} alt="" className={style.img} />
-                            <p className={style.p}>HTML</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={css} alt="" className={style.img} />
-                            <p className={style.p}>CSS</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={js} alt="" className={style.img} />
-                            <p className={style.p}>JavaScript</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={ts} alt="" className={style.img} />
-                            <p className={style.p}>TypeScript</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={react} alt="" className={style.img} />
-                            <p className={style.p}>React</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={redux} alt="" className={style.img} />
-                            <p className={style.p}>Redux</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={next} alt="" className={style.imgNext} />
-                            <p className={style.p}>Next JS</p>
+                            <img src={tailwind} alt="" className={style.img} />
                         </div>
                     </div>
                 </div>
@@ -74,15 +59,8 @@ const Skills = () => {
                     <div className={style.imgContainer}>
                         <div className={style.imgContent}>
                             <img src={node} alt="" className={style.img} />
-                            <p className={style.p}>Node JS</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={sequelize} alt="" className={style.img} />
-                            <p className={style.p}>Sequelize</p>
-                        </div>
-                        <div className={style.imgContent}>
                             <img src={postgres} alt="" className={style.img} />
-                            <p className={style.p}>PostgreSQL</p>
                         </div>
                     </div>
                 </div>
@@ -95,8 +73,9 @@ const Skills = () => {
                     </div>
                     <div className={style.imgContainer}>
                         <div className={style.imgContent}>
+                            <img src={vsc} alt="" className={style.img} />
                             <img src={git} alt="" className={style.img} />
-                            <p className={style.p}>GIT</p>
+                            <img src={github} alt="" className={style.img} />
                         </div>
                     </div>
                 </div>
