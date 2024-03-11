@@ -51,7 +51,7 @@ i18n
           "im": "Soy un Desarrollador Full Stack",
 
           //About
-          "aboutTitle": "Encantado en conocerte",
+          "aboutTitle": "Encantado de conocerte",
           "aboutP": "Soy un desarrollador web con un enfoque centrado en el usuario y un ojo meticuloso para el diseño, me esfuerzo por convertir las ideas en experiencias web cautivadoras y funcionales. Me encanta investigar, resolver problemas, aprender de los demás y enseñar, por eso en mí Encontrarás un desarrollador con capacidad de resolución de conflictos, dispuesto a escuchar ideas y aportar todos mis conocimientos para lograr los objetivos propuestos. Estoy emocionado de seguir construyendo experiencias web impactantes!",
 
           //Skills
