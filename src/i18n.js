@@ -27,7 +27,7 @@ i18n
 
          //Works
          "development": "Web Development",
-         "show": "Show project",
+         "show": "See project",
 
          //Contact
          "contactName": "Name",
