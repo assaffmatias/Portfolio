@@ -20,10 +20,12 @@ const Home = () => {
                 <div className={style.pContent}>
                     <p className={style.p}>{t('im')}</p>
                 </div>
-                <div className={style.arrow} onClick={scrollDown}>
-                    <span className={style.span}></span>
-                    <span className={style.span}></span>
-                    <span className={style.span}></span>
+                <div className={style.arrowContainer} onClick={scrollDown}>
+                    <div className={style.arrow}>
+                        <span className={style.span}></span>
+                        <span className={style.span}></span>
+                        <span className={style.span}></span>
+                    </div>
                 </div>
             </div>
         </div>
