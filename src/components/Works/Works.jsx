@@ -21,6 +21,14 @@ const Works = () => {
                 <hr className={style.hr} />
             </div>
             <div className={style.cardsContainer}>
+            <Link className={style.cardContent} >
+                    <img src={innovatech} alt="" className={style.img} />
+                    <div className={style.dataContent}>
+                        <h3 className={style.workTitle}>Innova Tech</h3>
+                        <h3 className={style.webDev}>{t('development')}</h3>
+                        <h3 className={style.show}>{t('show')}</h3>
+                    </div>
+                </Link>
                 <Link className={style.cardContent} to={'https://driversapi.vercel.app/'} target="_blank">
                     <img src={driversapi} alt="" className={style.img} />
                     <div className={style.dataContent}>
@@ -33,14 +41,6 @@ const Works = () => {
                     <img src={rickandmorty} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Rick & Morty</h3>
-                        <h3 className={style.webDev}>{t('development')}</h3>
-                        <h3 className={style.show}>{t('show')}</h3>
-                    </div>
-                </Link>
-                <Link className={style.cardContent} >
-                    <img src={innovatech} alt="" className={style.img} />
-                    <div className={style.dataContent}>
-                        <h3 className={style.workTitle}>Innova Tech</h3>
                         <h3 className={style.webDev}>{t('development')}</h3>
                         <h3 className={style.show}>{t('show')}</h3>
                     </div>
