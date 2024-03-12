@@ -1,15 +1,15 @@
-import style from './It.module.css';
-import image from '../../assets/innovatech.png'
+import style from './Rym.module.css';
+import image from '../../assets/rickandmorty.png'
 import { Link } from 'react-router-dom';
 
-const It = () => {
+const Rym = () => {
     return (
         <div className={style.container}>
             <div className={style.titleContent}>
                 <h3 className={style.h3}>Web Development ·</h3>
-                <h1 className={style.h1}>Innova Tech</h1>
+                <h1 className={style.h1}>Rick and Morty</h1>
                 <p className={style.p}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor praesentium commodi incidunt, maxime voluptas, aliquam aperiam voluptatum illum a, eos consectetur nobis soluta amet neque. Quisquam unde illo velit debitis.</p>
-                <Link className={style.button} to={'https://innovatechok.vercel.app/'} target="_blank">
+                <Link className={style.button} to={'https://api-of-rickandmorty.vercel.app/'} target="_blank">
                     Open project
                     <svg className={style.svg} viewBox="0 0 384 512">
                         <path
@@ -25,4 +25,4 @@ const It = () => {
     )
 }
 
-export default It;
+export default Rym;

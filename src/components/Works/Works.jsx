@@ -14,6 +14,10 @@ const Works = () => {
         i18n.changeLanguage(lng);
     };
 
+    const scroll = () => {
+        window.scrollTo(0, 0);
+      }
+
     return (
         <div className={style.container} id='works'>
             <div>
@@ -21,7 +25,7 @@ const Works = () => {
                 <hr className={style.hr} />
             </div>
             <div className={style.cardsContainer}>
-            <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/innova-tech'}>
+            <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/innova-tech'} onClick={scroll}>
                     <img src={innovatech} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Innova Tech</h3>
@@ -29,7 +33,7 @@ const Works = () => {
                         <h3 className={style.show}>{t('show')}</h3>
                     </div>
                 </Link>
-                <Link className={style.cardContent} to={'https://driversapi.vercel.app/'} target="_blank">
+                <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/drivers-api'} onClick={scroll}>
                     <img src={driversapi} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Drivers API</h3>
@@ -37,7 +41,7 @@ const Works = () => {
                         <h3 className={style.show}>{t('show')}</h3>
                     </div>
                 </Link>
-                <Link className={style.cardContent} to={'https://api-of-rickandmorty.vercel.app/'} target="_blank">
+                <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/rick-and-morty'} onClick={scroll}>
                     <img src={rickandmorty} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Rick & Morty</h3>
