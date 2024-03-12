@@ -2,9 +2,10 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './views/Home/Home';
-import It from './views/It/It';
+import Innova from './views/Innova/Innova';
+import Formula1 from './views/Formula1/Formula1';
 import Rym from './views/Rym/Rym';
-import Dapi from './views/Dapi/Dapi';
+
 
 function App() {
   return (
@@ -12,9 +13,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/innova-tech" element={<It />} />
-        <Route path="/drivers-api" element={<Dapi />} />
-        <Route path="/riack-and-morty" element={<Rym />} />
+        <Route path='"/innova-tech' element={<Innova />}/>
+        <Route path='"/drivers-api' element={<Formula1 />}/>
+        <Route path='"/rick-and-morty' element={<Rym />}/>
       </Routes>
     </div>
   );
