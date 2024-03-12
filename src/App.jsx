@@ -1,23 +1,19 @@
-import NavBar from './components/NavBar/NavBar'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Works from './components/Works/Works'
-import Skills from './components/Skills/Skills'
-import Contact from './components/Contact/Contact'
-
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
+import Home from './views/Home/Home';
+import It from './views/It/It';
 
 function App() {
-
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
-      <Skills />
-      <Works />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/innova-tech" element={<It />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

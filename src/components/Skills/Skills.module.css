@@ -5,6 +5,12 @@
     margin: 6em 2em;
 }
 
+.titleContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .title {
     margin: 0;
     font-size: 4em;
@@ -14,6 +20,8 @@
 .hr {
     margin: 0;
     border: 2px solid #fdaa1e;
+    width: 70%;
+    background-color: #465a64;
 }
 
 .mainContent{
@@ -40,9 +48,9 @@
 }
 
 .svg{
-    width: 60px;
-    height: 60px;
-    /* filter: brightness(0) invert(1); */
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
 }
 
 .spanFront, .spanBack, .spanTools{
@@ -67,15 +75,15 @@
 }
 
 .spanFront::after{
-    background: linear-gradient(65deg, #a27bf3 0%, #a27bf3 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #df058d 0%, #df058d 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .spanBack::after{
-    background: linear-gradient(65deg, #465a64 0%, #465a64 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #2c49d8 0%, #2c49d8 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .spanTools::after{
-    background: linear-gradient(65deg, #37bbe0 0%, #37bbe0 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #ff6b2b 0%, #ff6b2b 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .imgContainer{

@@ -2,6 +2,7 @@ import style from './NavBar.module.css'
 import logo from '../../assets/logo.png'
 import nav from '../../assets/nav-menu.svg'
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from '../../i18n';
@@ -10,6 +11,7 @@ const NavBar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const location = useLocation();
 
     const { i18n } = useTranslation();
     const { t } = useTranslation();
@@ -45,7 +47,7 @@ const NavBar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollPos = window.pageYOffset;
-            const isVisible = prevScrollPos > currentScrollPos || currentScrollPos < 500;
+            const isVisible = currentScrollPos < 500;
 
             setPrevScrollPos(currentScrollPos);
             setVisible(isVisible);
@@ -57,6 +59,14 @@ const NavBar = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [prevScrollPos]);
+
+    // Check if the current location is '/innova-tech'
+    const isHomeRoute = location.pathname === '/innova-tech';
+
+    // If it's the home route, don't render NavBar
+    if (isHomeRoute) {
+        return null;
+    }
 
     return (
         <div className={`${style.container} ${!visible ? style.hidden : ''}`}>

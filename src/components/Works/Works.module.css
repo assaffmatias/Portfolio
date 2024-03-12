@@ -14,6 +14,7 @@
 .hr {
     margin: 0;
     border: 2px solid #fdaa1e;
+    width: 70%;
 }
 
 .cardsContainer {

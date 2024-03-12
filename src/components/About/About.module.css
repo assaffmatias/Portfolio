@@ -21,8 +21,9 @@
 }
 
 .hr {
-    margin: 0;
+    margin: auto;
     border: 2px solid #fdaa1e;
+    width: 70%;
 }
 
 .aboutContent{

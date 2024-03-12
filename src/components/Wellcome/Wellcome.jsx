@@ -1,7 +1,7 @@
-import style from './Home.module.css'
+import style from './Wellcome.module.css'
 import { useTranslation } from 'react-i18next';
 
-const Home = () => {
+const Wellcome = () => {
     const { t } = useTranslation();
 
     const scrollDown = () => {
@@ -32,4 +32,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Wellcome;
