@@ -61,7 +61,7 @@ const NavBar = () => {
     }, [prevScrollPos]);
 
     // Check if the current location is '/innova-tech'
-    const isHomeRoute = location.pathname === '/innova-tech';
+    const isHomeRoute = location.pathname !== '/';
 
     // If it's the home route, don't render NavBar
     if (isHomeRoute) {
