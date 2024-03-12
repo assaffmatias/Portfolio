@@ -1,5 +1,6 @@
 import style from './About.module.css'
 import { useTranslation } from 'react-i18next';
+import aboutme from '../../assets/aboutme.svg'
 
 const About = () => {
     const { t } = useTranslation();
@@ -23,6 +24,9 @@ const About = () => {
                         </div>
                         <div className={style.elementorHeadingTitle}>
                             <p className={style.p}>{t('aboutP')}</p>
+                        </div>
+                        <div>
+                            <img src={aboutme} alt="" className={style.img} />
                         </div>
                     </div>
                 </div>

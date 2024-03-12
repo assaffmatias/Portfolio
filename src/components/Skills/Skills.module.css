@@ -28,9 +28,10 @@
 .skillContent{
     width: 350px;
     height: 280px;
-    border: 2px solid #a3a3a3;
+    border: 1px solid #a3a3a3;
     margin: 10px;
 }
+
 
 .spanContent{
     display: flex;
@@ -41,7 +42,7 @@
 .svg{
     width: 60px;
     height: 60px;
-    filter: brightness(0) invert(1);
+    /* filter: brightness(0) invert(1); */
 }
 
 .spanFront, .spanBack, .spanTools{
@@ -66,15 +67,15 @@
 }
 
 .spanFront::after{
-    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #a27bf3 0%, #a27bf3 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .spanBack::after{
-    background: linear-gradient(65deg, #2c49d8 0%, #2c49d8 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #465a64 0%, #465a64 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .spanTools::after{
-    background: linear-gradient(65deg, #ff6b2b 0%, #ff6b2b 100%, rgba(255, 209, 0, 0) 100%);
+    background: linear-gradient(65deg, #37bbe0 0%, #37bbe0 100%, rgba(255, 209, 0, 0) 100%);
 }
 
 .imgContainer{
@@ -87,7 +88,7 @@
     flex-wrap: wrap;
 }
 
-.img, .imgNext{
+.img, .imgNext {
     width: 45px;
     height: 45px;
     border-radius: 8px;
@@ -97,7 +98,6 @@
 .imgNext{
     filter: brightness(0) invert(1);
 }
-
 
 @media screen and (max-width:768px) {
     .container{

@@ -65,14 +65,16 @@
 .webDev {
     position: absolute;
     margin: 0;
-    color: #74777b;
-    transition: transform 1s, opacity 1s;
+    color: #dde0e0;
+    transition: transform 0.5s, opacity 1s;
+    font-size: 1em;
+    font-weight: 200;
 }
 
 .show {
     margin: 0;
     color: transparent;
-    transition: transform 1s, opacity 1s;
+    transition: transform 0.5s, opacity 1s;
     transform: translateY(100%)
 }
 
@@ -92,7 +94,9 @@
     transform: translateY(0);
     /* Mover el elemento hacia abajo */
     opacity: 1;
-    color: #fdaa1e;
+    color: #dde0e0;
+    font-size: 1em;
+    font-weight: 200;
 }
 
 @media screen and (max-width:768px) {

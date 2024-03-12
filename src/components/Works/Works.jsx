@@ -21,7 +21,7 @@ const Works = () => {
                 <hr className={style.hr} />
             </div>
             <div className={style.cardsContainer}>
-            <Link className={style.cardContent} >
+            <Link className={style.cardContent} to={'https://innovatechok.vercel.app/'} target="_blank">
                     <img src={innovatech} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Innova Tech</h3>
