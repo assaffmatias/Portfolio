@@ -3,13 +3,11 @@ import logo from '../../assets/logo.png'
 import nav from '../../assets/nav-menu.svg'
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import i18n from '../../i18n';
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
     const location = useLocation();
 
     const { i18n } = useTranslation();
@@ -23,21 +21,11 @@ const NavBar = () => {
         i18n.changeLanguage(lng);
     };
 
-    const handleScroll = () => {
-        const aboutSection = document.getElementById('about');
-        if (aboutSection) {
-            const aboutPosition = aboutSection.getBoundingClientRect().top;
-            setIsScrolled(aboutPosition <= 0);
-        }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
     const handleClick = (e, targetId) => {
         e.preventDefault();
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-            smoothScrollTo(targetElement.offsetTop);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -45,64 +33,37 @@ const NavBar = () => {
         e.preventDefault();
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-            smoothScrollTo(targetElement.offsetTop);
-            setIsMenuOpen(false);
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+            setIsMenuOpen(false)
         }
-        // setIsMenuOpen(false);
-        // document.body.style.overflow = 'auto';
     };
 
-    const smoothScrollTo = (targetPosition) => {
-        const startPosition = window.pageYOffset;
-        const distance = targetPosition - startPosition;
-        const duration = 500; // milliseconds
-        let start = null;
-
-        const step = (timestamp) => {
-            if (!start) start = timestamp;
-            const progress = timestamp - start;
-            const percentage = Math.min(progress / duration, 1);
-
-            window.scrollTo(0, startPosition + distance * percentage);
-
-            if (progress < duration) {
-                window.requestAnimationFrame(step);
-            }
-        };
-
-        window.requestAnimationFrame(step);
-    };
-
-    // Check if the current location is '/innova-tech'
     const isHomeRoute = location.pathname !== '/';
 
-    // If it's the home route, don't render NavBar
     if (isHomeRoute) {
         return null;
     }
 
     return (
         <div className={style.container}>
-            <div className={`${style.navDesk} ${isScrolled ? style.hidden : ''}`}>
-                <div className={style.logoContainer}>
-                    <img src={logo} alt="" className={style.logo} />
-                </div>
-                <div className={style.linkContainer}>
-                    <a href='#home' className={style.link} onClick={(e) => handleClick(e, '#home')}>{t('home')}</a>
-                    <a href='#about' className={style.link} onClick={(e) => handleClick(e, '#about')}>{t('about')}</a>
-                    <a href='#skills' className={style.link} onClick={(e) => handleClick(e, '#skills')}>{t('skills')}</a>
-                    <a href='#works' className={style.link} onClick={(e) => handleClick(e, '#works')}>{t('works')}</a>
-                    <a href='#contact' className={style.link} onClick={(e) => handleClick(e, '#contact')}>{t('contact')}</a>
-                    <div className={style.leng}>
-                        <Link className={style.link_i} onClick={() => changeLanguage('es')}>ES</Link>
-                        <Link className={style.link_i} onClick={() => changeLanguage('en')} >EN</Link>
-                    </div>
+            <div className={style.logoContainer}>
+                <img src={logo} alt="" className={style.logo} />
+            </div>
+            <div className={style.linkContainer}>
+                <a href='#home' className={style.link} onClick={(e) => handleClick(e, '#home')}>{t('home')}</a>
+                <a href='#about' className={style.link} onClick={(e) => handleClick(e, '#about')}>{t('about')}</a>
+                <a href='#skills' className={style.link} onClick={(e) => handleClick(e, '#skills')}>{t('skills')}</a>
+                <a href='#works' className={style.link} onClick={(e) => handleClick(e, '#works')}>{t('works')}</a>
+                <a href='#contact' className={style.link} onClick={(e) => handleClick(e, '#contact')}>{t('contact')}</a>
+                <div className={style.leng}>
+                    <Link className={style.link_i} onClick={() => changeLanguage('es')}>ES</Link>
+                    <Link className={style.link_i} onClick={() => changeLanguage('en')} >EN</Link>
                 </div>
             </div>
 
             <div className={style.navMobile}>
                 {isMenuOpen ? (
-                    <div className={`${style.mobileContent} ${style.menuOpen}`}>
+                    <div className={style.menuOpen}>
                         <div className={style.buttonContainer}>
                             <button className={style.button} onClick={toggleMenu}>✘</button>
                         </div>
