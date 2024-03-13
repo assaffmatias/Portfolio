@@ -1,21 +1,42 @@
 import style from './Rym.module.css';
 import image from '../../assets/rickandmorty.png'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Rym = () => {
+    const { i18n } = useTranslation();
+    const { t } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
+
     return (
         <div className={style.container}>
+            <div className={style.backContent}>
+                <div>
+                <Link to={'/'}>
+                    <svg className={style.svgBack} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                </Link>
+                </div>
+                <div>
+                    <Link className={style.link_i} onClick={() => changeLanguage('es')}>ES</Link>
+                    <Link className={style.link_i} onClick={() => changeLanguage('en')} >EN</Link>
+                </div>
+            </div>
             <div className={style.titleContent}>
-                <h3 className={style.h3}>Web Development ·</h3>
+                <h3 className={style.h3}>{t('webDev')}</h3>
                 <h1 className={style.h1}>Rick and Morty</h1>
-                <p className={style.p}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor praesentium commodi incidunt, maxime voluptas, aliquam aperiam voluptatum illum a, eos consectetur nobis soluta amet neque. Quisquam unde illo velit debitis.</p>
-                <Link className={style.button} to={'https://api-of-rickandmorty.vercel.app/'} target="_blank">
-                    Open project
-                    <svg className={style.svg} viewBox="0 0 384 512">
-                        <path
-                            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
-                        ></path>
-                    </svg>
+                <p className={style.p}>{t('rymDescription')}</p>
+                <div className={style.techContent}>
+                    <button className={style.tech}>Javascript</button>
+                    <button className={style.tech}>React</button>
+                    <button className={style.tech}>Redux</button>
+                    <button className={style.tech}>Express</button>
+                </div>
+                <Link className={style.link} to={'https://api-of-rickandmorty.vercel.app/'} target="_blank">
+                {t('openProject')}
+                    <svg className={style.svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
                 </Link>
             </div>
             <div className={style.imgContainer}>

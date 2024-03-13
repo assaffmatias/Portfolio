@@ -22,7 +22,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #fdaa1e; /* Color del thumb */
+  background-color: #555; /* Color del thumb */
   border-radius: 3px; /* Bordes redondeados del thumb */
 }
 
@@ -31,5 +31,5 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #141c27; /* Color del track */
+  background-color: #171f2a; /* Color del track */
 }
