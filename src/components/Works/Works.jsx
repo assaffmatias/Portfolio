@@ -34,7 +34,7 @@ const Works = () => {
                         <h3 className={style.show}>{t('show')}</h3>
                     </div>
                 </Link>
-                <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/drivers-api'} onClick={scroll}>
+                <Link className={style.cardContent} to={'/drivers-api'} onClick={scroll}>
                 {/* <Link className={style.cardContent} to={'http://localhost:5173/drivers-api'} onClick={scroll}> */}
                     <img src={driversapi} alt="" className={style.img} />
                     <div className={style.dataContent}>
@@ -43,7 +43,7 @@ const Works = () => {
                         <h3 className={style.show}>{t('show')}</h3>
                     </div>
                 </Link>
-                <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/rick-and-morty'} onClick={scroll}>
+                <Link className={style.cardContent} to={'/rick-and-morty'} onClick={scroll}>
                 {/* <Link className={style.cardContent} to={'http://localhost:5173/rick-and-morty'} onClick={scroll}> */}
                     <img src={rickandmorty} alt="" className={style.img} />
                     <div className={style.dataContent}>
