@@ -23,7 +23,7 @@
 .formContainer {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 1em;
     /* background-color: lightblue; */
 }
 
@@ -118,7 +118,7 @@
     color: #fdaa1e;
     margin: 0;
     padding-top: .5em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .p{
