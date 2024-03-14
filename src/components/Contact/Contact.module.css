@@ -16,13 +16,8 @@
 
 .title {
     margin: 0;
-    font-size: 4em;
+    font-size: 5em;
     color: #fff;
-}
-
-.hr {
-    margin: 0;
-    border: 2px solid #fdaa1e;
 }
 
 .formContainer {
@@ -97,7 +92,7 @@
 }
 
 .submit:hover {
-    color: #fdaa1e;
+    color: #df058d;
 }
 
 .contact {
@@ -114,13 +109,13 @@
 }
 
 .svg:hover {
-    color: #fdaa1e;
+    color: #df058d;
 }
 
 .build {
     display: flex;
     justify-content: center;
-    color: #fdaa1e;
+    color: #df058d;
     margin: 0;
     padding-top: .5em;
     font-weight: 600;

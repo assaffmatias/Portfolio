@@ -16,14 +16,8 @@
 
 .title {
     margin: 0;
-    font-size: 4em;
+    font-size: 5em;
     color: #fff;
-}
-
-.hr {
-    margin: auto;
-    border: 2px solid #fdaa1e;
-    width: 70%;
 }
 
 .aboutContent{
@@ -128,10 +122,6 @@
         font-size: 25px;
     }
 
-    .img{
-        display: none;
-    }
-
 }
 
 @media screen and (max-width: 640px){
@@ -141,5 +131,11 @@
     
     .title{
         font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .img{
+        display: none;
     }
 }

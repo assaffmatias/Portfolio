@@ -24,6 +24,10 @@ i18n
 
           //Skills
           "skillSpan": "Tools",
+          "front": "Experience in HTML, CSS, JavaScript, React, Redux, learning Next.js and Typescript.",
+          "back": "I have development experience with Node.js, PostgreSQL, Sequelize and Express.",
+          "tools": "I have skills in tools such as Git, GitHub and the use of platforms such as Insomnia and PgAdmin.",
+          "phrase": "Sometimes the best way to solve a problem is to help others.",
 
           //Works
           "development": "Web Development",
@@ -64,6 +68,10 @@ i18n
 
           //Skills
           "skillSpan": "Herramientas",
+          "front": "Experiencia en HTML, CSS, JavaScript, React, Redux, learning Next.js and Typescript.",
+          "back": "Tengo experiencia en desarrollo con Node.js, PostgreSQL, Sequelize y Express.",
+          "tools": "Tengo habilidades en herramientas como Git, GitHub y el uso de plataformas como Insomnia y PgAdmin.",
+          "phrase": "A veces la mejor manera de resolver un problema es ayudar a los demás.",
 
           //Works
           "development": "Desarrollo Web",

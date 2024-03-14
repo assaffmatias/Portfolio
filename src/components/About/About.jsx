@@ -10,7 +10,6 @@ const About = () => {
             <div className={style.mainContent}>
                 <div className={style.titleContent}>
                     <h2 className={style.title} id='about'>{t('about')}</h2>
-                    <hr className={style.hr} />
                 </div>
                 <div className={style.aboutContent}>
                     <h5>

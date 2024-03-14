@@ -23,7 +23,6 @@ const Contact = () => {
             <div className={style.mainContent}>
                 <div className={style.titleContent}>
                     <h2 className={style.title} id='contact'>{t('contact')}</h2>
-                    <hr className={style.hr} />
                 </div>
             </div>
             <div className={style.formContainer}>

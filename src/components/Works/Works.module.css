@@ -7,23 +7,20 @@
 
 .title {
     margin: 0;
-    font-size: 4em;
+    font-size: 5em;
     color: #fff;
-    /* background-color: #201f23; */
 }
 
-.hr {
-    margin: 0;
-    border: 2px solid #fdaa1e;
-    width: 70%;
-}
-
-.cardsContainer {
+.mainContent {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 2em;
     width: 100%;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cardContent {
