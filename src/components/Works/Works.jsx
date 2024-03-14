@@ -25,8 +25,8 @@ const Works = () => {
                 <hr className={style.hr} />
             </div>
             <div className={style.cardsContainer}>
-                <Link className={style.cardContent} to={'https://assaffmatias.vercel.app/innova-tech'} onClick={scroll}>
-                {/* <Link className={style.cardContent} to={'http://localhost:5173/innova-tech'} onClick={scroll}> */}
+                <Link className={style.cardContent} to={'/innova-tech'} onClick={scroll}>
+                {/* <Link className={style.cardContent} to={'/innova-tech'} onClick={scroll}> */}
                     <img src={innovatech} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Innova Tech</h3>
