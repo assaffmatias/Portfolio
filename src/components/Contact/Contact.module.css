@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 6em 2em;
+    margin: 8em 2em;
     margin-bottom: 0;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .submit:hover {
-    color: #df058d;
+    color: #fdaa1e;
 }
 
 .contact {
@@ -109,16 +109,16 @@
 }
 
 .svg:hover {
-    color: #df058d;
+    color: #fdaa1e;
 }
 
 .build {
     display: flex;
     justify-content: center;
-    color: #df058d;
+    color: #fdaa1e;
     margin: 0;
     padding-top: .5em;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .p{
