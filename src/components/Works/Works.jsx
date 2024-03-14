@@ -26,7 +26,6 @@ const Works = () => {
             </div>
             <div className={style.cardsContainer}>
                 <Link className={style.cardContent} to={'/innova-tech'} onClick={scroll}>
-                {/* <Link className={style.cardContent} to={'/innova-tech'} onClick={scroll}> */}
                     <img src={innovatech} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Innova Tech</h3>
@@ -35,7 +34,6 @@ const Works = () => {
                     </div>
                 </Link>
                 <Link className={style.cardContent} to={'/drivers-api'} onClick={scroll}>
-                {/* <Link className={style.cardContent} to={'http://localhost:5173/drivers-api'} onClick={scroll}> */}
                     <img src={driversapi} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Drivers API</h3>
@@ -44,7 +42,6 @@ const Works = () => {
                     </div>
                 </Link>
                 <Link className={style.cardContent} to={'/rick-and-morty'} onClick={scroll}>
-                {/* <Link className={style.cardContent} to={'http://localhost:5173/rick-and-morty'} onClick={scroll}> */}
                     <img src={rickandmorty} alt="" className={style.img} />
                     <div className={style.dataContent}>
                         <h3 className={style.workTitle}>Rick & Morty</h3>

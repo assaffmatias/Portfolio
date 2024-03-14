@@ -15,7 +15,7 @@ function App() {
         <Route path="/innova-tech" element={<Innova />} />
         <Route path="/drivers-api" element={<Formula1 />} />
         <Route path="/rick-and-morty" element={<Rym />} />
-        {/* <Route path="*" element={<Navigate to="/" />} /> */}
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
   );
