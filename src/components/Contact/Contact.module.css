@@ -92,7 +92,7 @@
 }
 
 .submit:hover {
-    color: #bb77ff;
+    color: #09f;
 }
 
 .contact {
@@ -110,13 +110,13 @@
 }
 
 .svg:hover {
-    color: #bb77ff;
+    color: #09f;
 }
 
 .build {
     display: flex;
     justify-content: center;
-    color: #bb77ff;
+    color: #09f;
     margin: 0;
     padding-top: .5em;
     font-weight: 200;
