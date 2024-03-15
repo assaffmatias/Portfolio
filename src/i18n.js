@@ -68,7 +68,7 @@ i18n
 
           //Skills
           "skillSpan": "Herramientas",
-          "front": "Experiencia en HTML, CSS, JavaScript, React, Redux, learning Next.js and Typescript.",
+          "front": "Experiencia en HTML, CSS, JavaScript, React, Redux, aprendiendo Next.js y Typescript.",
           "back": "Tengo experiencia en desarrollo con Node.js, PostgreSQL, Sequelize y Express.",
           "tools": "Tengo habilidades en herramientas como Git, GitHub y el uso de plataformas como Insomnia y PgAdmin.",
           "phrase": "A veces la mejor manera de resolver un problema es ayudar a los demás.",
