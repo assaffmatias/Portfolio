@@ -28,7 +28,7 @@
 .link_i {
     margin: 0 .3em;
     text-decoration: none;
-    color: #bb77ff;
+    color: #09f;
     font-weight: 600;
 }
 
@@ -93,11 +93,11 @@
 }
 
 .link:hover{
-    color: #bb77ff;
+    color: #09f;
 }
 
 .link:hover .svg{
-    color: #bb77ff;
+    color: #09f;
    scale: 1.1;
 }
 

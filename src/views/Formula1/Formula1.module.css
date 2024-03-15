@@ -17,7 +17,7 @@
     color: white;
     transform: rotate(225deg);
     border: 1px solid transparent;
-    transition: 2s;
+    transition: 1s;
 }
 
 .svgBack:hover{
@@ -28,13 +28,8 @@
 .link_i {
     margin: 0 .3em;
     text-decoration: none;
-    color: white;
-    transition: .3s;
+    color: #09f;
     font-weight: 600;
-}
-
-.link_i:hover {
-    color: #df058d;
 }
 
 .titleContent {
@@ -87,24 +82,23 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     float: left;
-    transition: .3s;
+    transition: .5s;
 }
 
 .svg{
     padding: 0 .5em;
     width: 20px;
     height: 20px;
-    transition: .2s;
+    transition: .5s;
 }
 
 .link:hover{
-    color: #df058d;
+    color: #09f;
 }
 
 .link:hover .svg{
-    color: #df058d;
-    width: 25px;
-    height: 25px;
+    color: #09f;
+   scale: 1.1;
 }
 
 .imgContainer{
