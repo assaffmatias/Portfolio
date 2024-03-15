@@ -5,7 +5,7 @@
     margin: 8em 2em;
 }
 
-.titleContent{
+.titleContent {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -17,7 +17,7 @@
     color: #fff;
 }
 
-.mainContent{
+.mainContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,27 +26,28 @@
     margin-top: 1em;
 }
 
-.skillContent{
+.skillContent {
     width: 350px;
     height: 280px;
     border: 2px solid #a3a3a3;
     margin: 10px;
 }
 
-
-.spanContent{
+.spanContent {
     display: flex;
     align-items: center;
     margin: 0 2em;
 }
 
-.svg{
+.svg {
     width: 50px;
     height: 50px;
     filter: brightness(0) invert(1);
 }
 
-.spanFront, .spanBack, .spanTools{
+.spanFront,
+.spanBack,
+.spanTools {
     font-size: 32px;
     font-weight: 600;
     z-index: 0;
@@ -56,7 +57,9 @@
     margin-left: .3em;
 }
 
-.spanFront::after, .spanBack::after, .spanTools::after{
+.spanFront::after,
+.spanBack::after,
+.spanTools::after {
     transition: all 0.1s ease-in-out;
     content: "";
     position: absolute;
@@ -67,49 +70,49 @@
     left: -1%;
 }
 
-.spanFront::after{
+.spanFront::after {
     background: linear-gradient(65deg, #df058d 0%, #df058d 100%, rgba(255, 209, 0, 0) 100%);
 }
 
-.spanBack::after{
+.spanBack::after {
     background: linear-gradient(65deg, #2c49d8 0%, #2c49d8 100%, rgba(255, 209, 0, 0) 100%);
 }
 
-.spanTools::after{
+.spanTools::after {
     background: linear-gradient(65deg, #ff6b2b 0%, #ff6b2b 100%, rgba(255, 209, 0, 0) 100%);
 }
 
-.elementorWidgetContainer{
+.elementorWidgetContainer {
     display: flex;
     align-items: center;
     width: 85%;
-    height: 50%;
     padding-left: 2em;
 }
 
-.p{
+.p {
     font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 1.5em .5em;
 
 }
 
-.editorContainer{
+.editorContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    align-self: stretch;
 }
 
-.line{
+.line {
     margin: 0;
     display: flex;
     flex-grow: 1;
     opacity: 0.3;
 }
 
-.open, .close{
+.open,
+.close {
     opacity: 0.3;
     color: white;
     font-weight: normal;
@@ -117,11 +120,11 @@
     margin: 0;
 }
 
-.open{
+.open {
     margin-bottom: .5em;
 }
 
-.close{
+.close {
     margin-top: .5em;
 }
 
@@ -132,18 +135,18 @@
     line-height: 1.4em;
 }
 
-.phraseContainer{
+.phraseContainer {
     display: none;
     width: 350px;
     height: 280px;
     margin: 10px;
 }
 
-.phraseContent{
+.phraseContent {
     border-left: 5px solid #bb77ff;
 }
 
-.phrase{
+.phrase {
     color: white;
     margin: 0;
     padding-left: 1em;
@@ -152,32 +155,32 @@
 
 
 @media screen and (max-width:768px) {
-    .container{
+    .container {
         margin: 8em .5em;
     }
-    
+
     .title {
         font-size: 3em;
     }
 
-    .titleContent{
+    .titleContent {
         margin-right: .5em;
     }
 
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
     .title {
         font-size: 3em;
     }
 
-    .skillContent{
+    .skillContent {
         width: 100%;
     }
 
 }
 
-@media screen and (min-width: 821px) and (max-width: 1195px){
+@media screen and (min-width: 821px) and (max-width: 1195px) {
 
     .phraseContainer {
         display: flex;

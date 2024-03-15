@@ -92,7 +92,7 @@
 }
 
 .submit:hover {
-    color: #fdaa1e;
+    color: #09f;
 }
 
 .contact {
@@ -106,16 +106,17 @@
     width: 30px;
     height: 30px;
     margin: 0 2em;
+    transition: .5s;
 }
 
 .svg:hover {
-    color: #fdaa1e;
+    color: #09f;
 }
 
 .build {
     display: flex;
     justify-content: center;
-    color: #fdaa1e;
+    color: #09f;
     margin: 0;
     padding-top: .5em;
     font-weight: 500;
