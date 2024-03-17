@@ -33,6 +33,8 @@ const Rym = () => {
                     <button className={style.tech}>React</button>
                     <button className={style.tech}>Redux</button>
                     <button className={style.tech}>Express</button>
+                    <button className={style.tech}>Sequelize</button>
+                    <button className={style.tech}>PostgreSQL</button>
                 </div>
                 <Link className={style.link} to={'https://api-of-rickandmorty.vercel.app/'} target="_blank">
                 {t('openProject')}

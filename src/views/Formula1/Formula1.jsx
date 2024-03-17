@@ -33,6 +33,7 @@ const Formula1 = () => {
                     <button className={style.tech}>React</button>
                     <button className={style.tech}>Redux</button>
                     <button className={style.tech}>Express</button>
+                    <button className={style.tech}>Sequelize</button>
                     <button className={style.tech}>PostgreSQL</button>
                 </div>
                 <Link className={style.link} to={'https://driversapi.vercel.app/'} target="_blank">

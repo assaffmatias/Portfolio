@@ -16,7 +16,8 @@ i18n
 
           //Home
           "greeting": "Hi, my name is",
-          "im": "i'm a Full Stack Developer",
+          "im": "i'm a ",
+          "fullstack": "Full Stack Developer",
 
           //About
           "aboutTitle": "Nice to meet you",
@@ -60,7 +61,8 @@ i18n
 
           //Home
           "greeting": "Hola, mi nombre es",
-          "im": "Soy un Desarrollador Full Stack",
+          "im": "Soy un ",
+          "fullstack": "Desarrollador Full Stack",
 
           //About
           "aboutTitle": "Encantado de conocerte",
@@ -88,8 +90,8 @@ i18n
           "webDev": "Desarrollo Web ·",
           "openProject": "Abrir proyecto",
           "innovaDescription": "Esta aplicación es un comercio electrónico en el que el usuario puede registrarse, iniciar sesión, buscar productos, filtrar por categoría, ordenar por precio, calificar, agregar productos al carrito, realizar pagos, recuperar contraseñas y más.",
-          "driversDescription": "Un SPA que permite visualizar información general y detallada de más de 500 pilotos de fórmula uno, entre las funcionalidades permite filtrar y ordenar pilotos por diferentes variables como nombre, fecha de nacimiento, equipo.",
-          "rymDescription": "Un SPA que consume datos de una API externa, y permite mostrar información sobre los personajes de Rick y Morty, entre las funcionalidades permite buscar, agregar los personajes a favoritos, filtrar y ordenar por género, nombre ascendente y descendente."
+          "driversDescription": "Una SPA que permite visualizar información general y detallada de más de 500 pilotos de fórmula uno, entre las funcionalidades permite filtrar y ordenar pilotos por diferentes variables como nombre, fecha de nacimiento, equipo.",
+          "rymDescription": "Una SPA que consume datos de una API externa, y permite mostrar información sobre los personajes de Rick y Morty, entre las funcionalidades permite buscar, agregar los personajes a favoritos, filtrar y ordenar por género, nombre ascendente y descendente."
         }
       }
     },

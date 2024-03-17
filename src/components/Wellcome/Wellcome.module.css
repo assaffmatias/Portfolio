@@ -63,6 +63,10 @@
   animation-duration: 1.5s;
 }
 
+.p:first-child{
+  font-weight: 200;
+  padding-right: .3em;
+}
 
 .arrowContainer {
   display: flex;

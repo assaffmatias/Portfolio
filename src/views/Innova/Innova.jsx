@@ -33,8 +33,9 @@ const Innova = () => {
                     <button className={style.tech}>React</button>
                     <button className={style.tech}>Redux</button>
                     <button className={style.tech}>Express</button>
-                    <button className={style.tech}>PostgreSQL</button>
+                    <button className={style.tech}>Sequelize</button>
                     <button className={style.tech}>Passport</button>
+                    <button className={style.tech}>PostgreSQL</button>
                 </div>
                 <Link className={style.link} to={'https://innovatechok.vercel.app/'} target="_blank">
                 {t('openProject')}

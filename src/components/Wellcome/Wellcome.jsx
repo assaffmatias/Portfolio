@@ -5,9 +5,7 @@ const Wellcome = () => {
     const { t } = useTranslation();
 
     const scrollDown = () => {
-        // Encuentra el elemento al que deseas desplazarte
         const aboutSection = document.getElementById('about');
-        // Hace scroll hacia el elemento
         aboutSection.scrollIntoView({ behavior: 'smooth' });
     };
     return (
@@ -19,6 +17,7 @@ const Wellcome = () => {
                 <h1 className={style.title}>MATIAS ASSAFF</h1>
                 <div className={style.pContent}>
                     <p className={style.p}>{t('im')}</p>
+                    <p className={style.p}>{t('fullstack')}</p>
                 </div>
                 <div className={style.arrowContainer} onClick={scrollDown}>
                 <svg className={style.svg} viewBox="0 0 384 512" fill="currentColor">
