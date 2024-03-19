@@ -23,18 +23,6 @@
   margin-bottom: 1em;
 }
 
-.greetingContent {
-  display: flex;
-  width: 100%;
-}
-
-.greeting {
-  font-size: 1.5em;
-  margin: 0;
-  animation: moveX;
-  animation-duration: 1.5s;
-  font-weight: 200;
-}
 
 .title {
   font-family: "DM Sans", sans-serif;
@@ -53,19 +41,11 @@
 .p {
   margin: 0;
   padding: 0;
-  font-size: 1.7em;
-  /* background-color: #09f; */
-  font-weight: 500;
+  font-size: 1.8em;
+  font-weight: blod;
   color: #fff;
-  /* padding: 0 .5em; */
-  border-radius: 8px;
   animation: move;
-  animation-duration: 1.5s;
-}
-
-.p:first-child{
-  font-weight: 200;
-  padding-right: .3em;
+  animation-duration: 1s;
 }
 
 .arrowContainer {
@@ -94,16 +74,6 @@
   }
 }
 
-@keyframes moveX {
-  from{
-    transform: translateX(-200px);
-  }
-
-  to{
-    transform: translateX(0);
-  }
-}
-
 .svg{
   width: 25px;
   height: 25px;
@@ -126,14 +96,6 @@
 }
 
 @media screen and (max-width:860px) {
-  .greetingContent {
-    justify-content: start;
-  }
-
-  .greeting{
-    font-size: 1em;
-  }
-
   .title {
     font-size: 3em;
   }

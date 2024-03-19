@@ -15,9 +15,7 @@ i18n
           "contact": "Contact",
 
           //Home
-          "greeting": "Hi, my name is",
-          "im": "i'm a ",
-          "fullstack": "Full Stack Developer",
+          "fullstack": "FULL STACK DEVELOPER",
 
           //About
           "aboutTitle": "Nice to meet you",
@@ -60,9 +58,7 @@ i18n
           "contact": "Contacto",
 
           //Home
-          "greeting": "Hola, mi nombre es",
-          "im": "Soy un ",
-          "fullstack": "Desarrollador Full Stack",
+          "fullstack": "DESARROLLADOR FULL STACK",
 
           //About
           "aboutTitle": "Encantado de conocerte",

@@ -1,4 +1,4 @@
-import style from './Formula1.module.css';
+import style from '../Projects.module.css';
 import image from '../../assets/driversapi.png'
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

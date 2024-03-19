@@ -11,12 +11,8 @@ const Wellcome = () => {
     return (
         <div className={style.container} id='home'>
             <div className={style.titleContent}>
-                <div className={style.greetingContent}>
-                    <p className={style.greeting}>{t('greeting')}</p>
-                </div>
                 <h1 className={style.title}>MATIAS ASSAFF</h1>
                 <div className={style.pContent}>
-                    <p className={style.p}>{t('im')}</p>
                     <p className={style.p}>{t('fullstack')}</p>
                 </div>
                 <div className={style.arrowContainer} onClick={scrollDown}>

@@ -16,12 +16,12 @@
     height: 40px;
     color: white;
     transform: rotate(225deg);
-    border: 1px solid transparent;
-    transition: 1s;
+    border: 2px solid transparent;
+    transition: .2s;
 }
 
 .svgBack:hover{
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 100%;
 }
 
@@ -98,7 +98,6 @@
 
 .link:hover .svg{
     color: #09f;
-   scale: 1.1;
 }
 
 .imgContainer{
