@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10%;
+    background-color: #fafafa;
+    border-bottom: 1px solid #a3a3a35d;
+    box-shadow: 0px 2px 2px #ebebeb;
+}
+
+.mainContainer {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+    width: 100%;
+    animation: show;
+    animation-duration: 3.5s;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dataContent {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pieChartContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pieChart {
+    max-width: 400px;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #323332;
+    margin: 15px 0;
+    margin-bottom: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #323332;
+    font-size: 1.2em;
+}
+
+.span{
+    font-size: .6em;
+    margin-left: 5px;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainContent {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .pieChartContainer {
+        margin-top: 2em;
+        order: 3;
+    }
+
+    .dataContent {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .container{
+        margin-bottom: 3em;
+    }
+
+    .mainContent {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 2em;
+    }
+}

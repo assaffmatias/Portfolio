@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5em 10%;
+    padding-bottom: 0;
+    border-bottom: 1px solid #a3a3a35d;
+    box-shadow: 0px 5px 8px #ebebeb;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 4em;
+    animation: reveal;
+    animation-duration: 1s;
+}
+
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 1024px;
+    text-wrap: balance;
+    animation: slideRight;
+    animation-duration: 1s;
+}
+
+.title {
+    font-family: "proxima nova bold";
+    font-size: 6.5em;
+    font-weight: bold;
+    letter-spacing: -6px;
+    color: #323232;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #757575;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #333333;
+    margin: 0;
+    padding-right: 1em;
+    margin-bottom: 16px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: end;
+    width: 56%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    height: auto;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to{
+        transform: translateX(0)
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(0)
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .mainContainer {
+        padding-bottom: 2em;
+    }
+
+    .mainContent{
+        flex-direction: column;
+        max-width: 800px;
+    }
+
+    .titleContent{
+        width: 100%;
+    }
+
+    .imageContainer{
+        justify-content: center;
+        width: 100%;
+        margin: 2em 0;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .mainContainer {
+        padding: 5em 5%;
+        padding-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .title{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .title{
+        font-size: 4em;
+    }
+}

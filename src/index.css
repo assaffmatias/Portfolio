@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bowlby+One+SC&family=Rubik+Moonrocks&display=swap');
+
+
+@font-face {
+  font-family: "proxima nova bold";
+  src: url(fonts/proximanova-bold-webfont.woff);
+}
+
+@font-face {
+  font-family: "proxima nova light";
+  src: url(fonts/proximanova-light-webfont.woff);
+}
+
+@font-face {
+  font-family: "proxima nova semibold";
+  src: url(fonts/proximanova-semibold-webfont.woff2);
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fefffe;
+  font-family: "proxima nova light", sans-serif;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection{
+  background-color: #232323;
+  color: #fefffe;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+} */

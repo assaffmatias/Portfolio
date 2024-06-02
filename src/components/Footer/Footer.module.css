@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    padding: 1em 10%;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    animation: reveal;
+    animation-duration: 3.5s;
+}
+
+.svgContainer {
+    display: flex;
+    gap: 1.5em;
+}
+
+.link {
+    display: flex;
+}
+
+.svg {
+    color: #232323;
+}
+
+.svg:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    font-size: .8em;
+    color: #757575;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container {
+        padding: .8em 5%;
+        position: fixed;
+        width: 90%;
+        bottom: 0;
+        z-index: 500;
+        background: rgba(255, 255, 255, 0.17);
+        backdrop-filter: blur(11.1px);
+        -webkit-backdrop-filter: blur(11.1px);
+    }
+
+    .mainContent {
+        animation: none;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .svgContainer {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text {
+        display: none;
+    }
+
+    .svgContainer {
+        justify-content: space-between;
+        width: 100%;
+    }
+}

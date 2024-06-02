@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  padding: 5em 10%;
+  padding-bottom: 0;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.title, .titleMobile {
+  font-family: "proxima nova bold";
+  font-weight: 400;
+  font-size: 6em;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
+  animation:blur-in-expand .5s linear both;
+}
+
+.titleMobile{
+  display: none;
+}
+
+.span {
+  color: #09f;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #d9d9d9;
+  line-height: 1em;
+  margin: 1em 0;
+  animation:blur-in-expand .7s linear both;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #d9d9d9;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #d9d9d9;
+  margin: 1em 0;
+  padding: .5em 1em;
+  transition: .5s;
+  animation:blur-in-expand .9s linear both;
+}
+
+.link:hover{
+  color: #fff;
+  border-color: #fff;
+}
+
+.svgContainer{
+  opacity: 0;
+  margin-top: 2em;
+  animation: show 2s forwards;
+  animation-delay: 1s;
+}
+
+.linkSvg{
+  color: #d9d9d9;
+  padding: 0 .7em;
+}
+
+.svg{
+  transition: .3s;
+}
+
+.linkSvg:hover .svg{
+  transform: scale(1.1);
+  color: #fff;
+}
+
+
+@keyframes blur-in-expand{
+  0%{
+    transform:scale(0);filter:blur(12px);opacity:0
+  }
+  100%{
+    transform:scale(1);filter:blur(0);opacity:1
+  }
+}
+
+@keyframes show {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 4.5em;
+  }
+
+  .subtitle{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .container{
+    padding: 5em 5%;
+    justify-content: start;
+  }
+
+  .title {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title{
+    display: none;
+  }
+
+  .subtitle{
+    font-size: 1em;
+  }
+
+  .titleMobileContainer{
+    text-align: center;
+    width: 100%;
+  }
+
+  .titleMobile {
+    display: block;
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .titleMobile {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .titleMobile {
+    font-size: 3em;
+  }
+}
