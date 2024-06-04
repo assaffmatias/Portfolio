@@ -1,6 +1,7 @@
 .container {
     display: flex;
     padding: 1em 10%;
+    background-color: #fefffe;
 }
 
 .mainContent {
@@ -10,8 +11,6 @@
     width: 100%;
     max-width: 1040px;
     margin: 0 auto;
-    animation: reveal;
-    animation-duration: 3.5s;
 }
 
 .svgContainer {
@@ -25,10 +24,11 @@
 
 .svg {
     color: #232323;
+    transition: .3s;
 }
 
 .svg:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .text {
@@ -36,19 +36,14 @@
     color: #757575;
 }
 
-@keyframes reveal {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.calendly{
+    display: none;
 }
+
 
 @media screen and (max-width: 810px) {
     .container {
-        padding: .8em 5%;
+        padding: .5em 5%;
         position: fixed;
         width: 90%;
         bottom: 0;
@@ -58,24 +53,14 @@
         -webkit-backdrop-filter: blur(11.1px);
     }
 
-    .mainContent {
-        animation: none;
-    }
-
     .text {
         display: none;
     }
 
-    .svgContainer {
-        justify-content: space-between;
-        width: 100%;
+    .calendly{
+        display: block;
     }
-}
 
-@media screen and (max-width: 500px) {
-    .text {
-        display: none;
-    }
 
     .svgContainer {
         justify-content: space-between;

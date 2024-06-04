@@ -18,7 +18,7 @@
   font-weight: 400;
   font-size: 6em;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: -3px;
   margin: 0;
   animation:blur-in-expand .5s linear both;
 }
@@ -32,14 +32,19 @@
 }
 
 .subtitle {
-  font-size: 1.5em;
+  font-family: "proxima nova bold";
+  font-size: 2.2em;
   font-weight: 600;
-  color: #d9d9d9;
+  /* color: #d9d9d9; */
   line-height: 1em;
-  margin: 1em 0;
+  margin: 1.5em 0;
+  margin-top: .2em;
   animation:blur-in-expand .7s linear both;
   text-wrap: balance;
   text-align: center;
+  -webkit-text-stroke: 1px #757575;
+  color: transparent;
+  /* background-color: blueviolet; */
 }
 
 .link {
@@ -79,7 +84,7 @@
 }
 
 .linkSvg:hover .svg{
-  transform: scale(1.1);
+  transform: scale(1.2);
   color: #fff;
 }
 
@@ -108,21 +113,18 @@
   .title {
     font-size: 4.5em;
   }
-
-  .subtitle{
-    font-size: 1.2em;
-  }
 }
 
 @media screen and (max-width: 810px) {
   .container{
-    padding: 5em 5%;
+    padding: 3em 5%;
     justify-content: start;
   }
 
   .title {
     font-size: 4em;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -131,7 +133,7 @@
   }
 
   .subtitle{
-    font-size: 1em;
+    font-size: 1.8em;
   }
 
   .titleMobileContainer{

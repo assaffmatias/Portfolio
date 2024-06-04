@@ -2,7 +2,7 @@ import styles from './Footer.module.css';
 import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
-    const {pathname} = useLocation();
+    const { pathname } = useLocation();
 
     const email = 'matias.assaff98@gmail.com'
     const url = `mailto:${email}`
@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className={styles.container}>
             <div className={styles.mainContent}>
-            <p className={styles.text}>© 2024 Matias Assaff</p>
+                <p className={styles.text}>© 2024 Matias Assaff</p>
                 <div className={styles.svgContainer}>
                     <Link className={styles.link} to={'https://twitter.com/AssaffMatias'} target='_blank'>
                         <svg className={styles.svg} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
@@ -34,9 +34,9 @@ const Footer = () => {
                             <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z" />
                         </svg>
                     </Link>
-                    <Link className={styles.link} to={'https://calendly.com/assaffmatias'} target='_blank'>
+                    <Link className={`${styles.link} ${styles.calendly}`} to={'https://calendly.com/assaffmatias'} target='_blank'>
                         <svg className={styles.svg} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                            <path fillRule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clipRule="evenodd" />
+                            <path fillRule="evenodd" d="M14 7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7Zm2 9.387 4.684 1.562A1 1 0 0 0 22 17V7a1 1 0 0 0-1.316-.949L16 7.613v8.774Z" clipRule="evenodd" />
                         </svg>
                     </Link>
                 </div>

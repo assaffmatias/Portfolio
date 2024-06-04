@@ -12,11 +12,13 @@
     }
 }
 
-.containerHome{
+.containerHome {
     animation: none;
+    background: #141414 radial-gradient(#ffffff17 10%, transparent 1%);
+    background-size: 11px 11px;
 }
 
-.mainContent{
+.mainContent {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,9 +30,9 @@
 .navigationContainer {
     position: absolute;
     display: none;
-    gap: 3em;
     transform: translateX(-100vw);
     transition: .7s;
+    gap: 1em;
 }
 
 .navigationContainerAnimation {
@@ -42,11 +44,15 @@
 }
 
 .svgNavigation {
+    padding: 8px;
     cursor: pointer;
-    color: #fff;
+    color: #e0e0e0;
+    border-top: 1px solid #7575754f;
     width: 35px;
     height: 35px;
     transition: .5s;
+    border-radius: 999999px;
+    background-color: #212021;
 }
 
 .logoContainer {
@@ -86,7 +92,7 @@
     stroke: #fff;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-width: 3;
+    stroke-width: 2;
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
         stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -104,29 +110,69 @@
     stroke-dashoffset: -32.42;
 }
 
-.linkContainer{
+.linkContainer {
     display: flex;
     align-items: center;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #fff;
     padding: 0 1em;
     font-size: 1.1em;
-    transition: .3s;
+    transition: .1s;
 }
 
-.link:last-child{
+.link:last-child {
     padding-right: 0;
 }
 
-.link:hover{
+.link:hover {
     color: #757575;
 }
 
-.linkCurrent{
+.linkCurrent {
     color: #757575;
+}
+
+.buttonLengContainer {
+    display: flex;
+    margin: 0 20px;
+    gap: 15px;
+}
+
+.buttonLeng {
+    font-family: "proxima nova light";
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-size: .9em;
+    border-bottom: 2px solid transparent;
+    padding: 0;
+    padding-bottom: 4px;
+    margin-top: 6px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.buttonLengSelected {
+    border-bottom: 2px solid #fff;
+}
+
+.linkMeet {
+    font-family: "proxima nova semibold";
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #fff;
+    color: #323232;
+    margin-left: 1em;
+    padding: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.linkMeet:hover {
+    padding: 14px 1.5em;
 }
 
 @keyframes jelly {
@@ -165,7 +211,7 @@
         padding: 1em 5%;
     }
 
-    .logoContainer{
+    .logoContainer {
         transform: translateY(-300px);
     }
 
@@ -177,9 +223,8 @@
         width: 70px;
     }
 
-    .navigationContainer{
+    .navigationContainer {
         display: flex;
-        gap: 2em;
     }
 
     .svgNavigation {
@@ -191,11 +236,11 @@
         height: 2.5em;
     }
 
-    .hamburger{
+    .hamburger {
         display: flex;
     }
 
-    .linkContainer{
+    .linkContainer {
         display: none;
     }
 }

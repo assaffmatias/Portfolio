@@ -9,7 +9,8 @@
     padding: 5em 10%;
     padding-bottom: 0;
     border-bottom: 1px solid #a3a3a35d;
-    box-shadow: 0px 5px 8px #ebebeb;
+    box-shadow: 0px 5px 8px #a3a3a3;
+    min-width: max-content;
 }
 
 .mainContent {

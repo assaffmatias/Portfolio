@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     padding: 5em 10%;
-    background-color: #fafafa;
+    background: #fafafa radial-gradient(#1414142c 10%, transparent 1%);
+    background-size: 11px 11px;
     border-bottom: 1px solid #a3a3a35d;
-    box-shadow: 0px 2px 2px #ebebeb;
+    /* box-shadow: 0px 2px 2px #ebebeb; */
 }
 
 .mainContainer {
@@ -25,7 +26,7 @@
 .dataContent {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .pieChartContainer {
@@ -55,7 +56,7 @@
     font-size: 1.2em;
 }
 
-.span{
+.span {
     font-size: .6em;
     margin-left: 5px;
 }
@@ -87,8 +88,8 @@
 }
 
 @media screen and (max-width:810px) {
-    .container{
-        margin-bottom: 3em;
+    .container {
+        margin-bottom: 2.8em;
     }
 
     .mainContent {
@@ -97,7 +98,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .title{
+    .title {
         font-size: 2em;
     }
 }

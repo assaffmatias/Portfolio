@@ -20,7 +20,10 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #fefffe;
+  /* background-color: #fefffe; */
+  color: #323232;
+  background: #fefffe radial-gradient(#1414142c 10%, transparent 1%);
+  background-size: 11px 11px;
   font-family: "proxima nova light", sans-serif;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
@@ -30,6 +33,7 @@ body{
   background-color: #232323;
   color: #fefffe;
 }
+
 
 /* ::-webkit-scrollbar {
   width: 0;

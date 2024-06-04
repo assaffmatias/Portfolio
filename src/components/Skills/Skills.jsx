@@ -16,7 +16,6 @@ const Skills = () => {
                         <p className={styles.data}>React & Redux</p>
                         <p className={styles.data}>Next.JS <span className={styles.span}>{t('learning')}</span></p>
                         <p className={styles.data}>Typescript <span className={styles.span}>{t('learning')}</span></p>
-                        <p className={styles.data}>Tailwind</p>
                     </div>
                     <div className={styles.pieChartContainer}>
                         <img src={pieChart} alt="" className={styles.pieChart} />
