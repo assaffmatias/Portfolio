@@ -1,14 +1,12 @@
 import AboutMe from '../../components/AboutMe/AboutMe';
-import Skills from '../../components/Skills/Skills'
-import Footer from '../../components/Footer/Footer';
+import Skills from '../../components/Skills/Skills';
 
 const About = () => {
     return(
-        <div>
+        <>
             <AboutMe />
             <Skills />
-            <Footer />
-        </div>
+        </>
     )
 }
 

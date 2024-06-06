@@ -7,77 +7,148 @@ i18n
     resources: {
       en: {
         translation: {
+          // Main
+          "mainGreeting": "Hello, I'm",
 
-          //Nav
-          "home": "Home",
-          "about": "About",
-          "portfolio": "Portfolio",
+          "mainSubtitle": "How can I help you?",
 
-          //Main
-          "mainSubtitle": "I make imagination a web reality.",
-          "mainLink": "See more about Me",
-          "hello": "Hello,",
-          "iAm": "I'm",
+          "mainOptionA": "I want to turn my ideas into a web reality",
 
-          //About
-          "aboutTitle": "about.",
+          "mainOptionB": "I would like to know more about your skills",
+
+          "mainOptionC": "Matias, who?!",
+
+          "neverMind": "Never Mind -",
+
+          "sayHi": "Just Say Hi",
+
+          // About
           "aboutSubtitle": "I'm a Web Developer",
-          "aboutDescription": "I spend my days (and often nights) painting the canvas of the internet with projects and lines of code, turning zeros and ones into intuitive and functional web experiences. When I'm not working on pixels, you'll find me jogging in the park, meeting new people, or playing soccer.",
-          "learning": "(learning)",
 
-          //portfolio
-          "portfolioTitle": "portfolio.",
-          "portfolioSubtitle": "Check out of my latest works",
-          "portfolioDescription": "I've worked on different projects, both on the Frontend and Backend. I've experience working with Scrum and knowledge of Git and GitHub.",
-          "webDevelopment": "Web Development",
-          "viewGitHub": "View GitHub",
-          "viewSite": "View site",
+          "aboutDescription": "I spend my days (and often nights) painting the canvas of the internet with projects and lines of code, turning zeros and ones into intuitive and functional web experiences. I love to investigate, solve problems, learn from others and teach, that is why in me you will find a developer with conflict resolution skills, willing to listen to ideas and contribute all my knowledge.",
 
-          //Projects
-          "innovaTech": "This application is an ecommerce in which user can register, login, search products, filter by category, sort by price, give ratings, add products to cart, make payments, recover passwords, and more. Made with JavaScript, React, Redux, HTML, CSS, Node.JS, Express, Sequelize, Passport, PostgreSQL.",
+          "yearsDev": "Years developing.",
 
-          "formula1": "A SPA that allows you to view general and detailed information on Formula One drivers. Among the functionalities, it allows you to create new drivers, search, filter and sort drivers by different variables such as name, date of birth and team. Made with JavaScript, React, Redux, HTML, CSS, Node.JS, Express, Sequelize, PostgreSQL.",
+          "fullProj": "Fulfilled projects.",
 
-          "rickAndMorty": "A SPA that consumes data from an external API, and allows displaying information about the Rick and Morty characters, among the functionalities it allows you to search, add the characters to favorites, filter and sort by gender and name. Made with JavaScript, React, Redux, HTML, CSS.",
+          "masterTech": "Mastered technologies.",
 
+          "moreAbout": "More about me",
+
+          "expertise": "Expertise",
+
+          "expertiseText": "I've worked on different projects, both Frontend and Backend, experience working with Scrum, Git and GitHub.",
+
+          "specialization": "Specialization",
+
+          "specializationText": "After many hours of code along with my obsession with details (and CSS) I discovered my passion for Frontend.",
+
+          "goals": "Goals",
+
+          "goalsText": "Explore new technologies, participate in challenging projects that allow me to expand my knowledge and experience.",
+
+          "present": "Present",
+
+          "presentText": "Learning new technologies like Next.js and Typescript, improving my English skills and starting new projects.",
+
+
+          //Skills
+          "frontend": "I've experience developing with HTML, CSS, JavaScript, React, Redux. Learning Next.js, Typescript and Tailwind.",
+          "backend": "I've experience developing with Node.js, Express, Sequelize and PostgreSQL.",
+          "tools":"Some of the tools I use are Git, GitHub, Insomnia, Postman and pgAdmin.",
+          "toolsTitle": "Tools",
+
+
+          // Contact
+          "contactTitle": "The Stage is Yours",
+
+          "contactSubtitle1": "I'm always looking to collaborate on interesting projects.",
+
+          "contactSubtitle2": "You need a hand? I have two!",
+
+          "webDev": "Frontend / Backend - Web Developer",
+
+          "email": "Drop an E-mail",
+
+          "meeting": "Book a meeting",
+
+          "resume": "View resume",
+
+          // Work
+          "workTitle": "Projects",
         }
 
       },
       es: {
         translation: {
+          // Main
+          "mainGreeting": "Hola, soy",
 
-          //Nav
-          "home": "Inicio",
-          "about": "Sobre mí",
-          "portfolio": "Portafolio",
+          "mainSubtitle": "¿Cómo te puedo ayudar?",
 
-          //Main
-          "mainSubtitle": "Hago de la imaginación una realidad web.",
-          "mainLink": "Ver más sobre mí",
-          "hello": "Hola,",
-          "iAm": "Soy",
+          "mainOptionA": "Quiero convertir mis ideas en una realidad web",
 
-          //About
-          "aboutTitle": "sobre mí.",
+          "mainOptionB": "Me gustaría conocer más sobre tus habilidades",
+
+          "mainOptionC": "Matias, ¿quién?",
+
+          "neverMind": "No Importa -",
+
+          "sayHi": "Solo Di Hola",
+
+          // About
           "aboutSubtitle": "Soy un Desarrollador Web",
-          "aboutDescription": "Paso mis días (y a menudo noches) pintando el lienzo de internet con proyectos y líneas de código, convirtiendo ceros y unos en experiencias web intuitivas y funcionales. Cuando no estoy trabajando en píxeles, me encontrarás trotando en el parque, conociendo gente o jugando fútbol.",
-          "learning": "(aprendiendo)",
 
-          //Portfolio
-          "portfolioTitle": "portafolio.",
-          "portfolioSubtitle": "Mira mis últimos trabajos",
-          "portfolioDescription": "He trabajado en diferentes proyectos, tanto en el Frontend como en el Backend. Tengo experiencia trabajando con Scrum y conocimientos sobre Git y GitHub.",
-          "webDevelopment": "Desarrollo Web",
-          "viewGitHub": "Ver GitHub",
-          "viewSite": "Ver sitio",
-          
-          //Projects
-          "innovaTech": "Esta aplicación es un comercio electrónico en el que el usuario puede registrarse, iniciar sesión, buscar productos, filtrar por categoría, ordenar por precio, calificar, agregar productos al carrito, realizar pagos, recuperar contraseñas y más. Hecho con JavaScript, React, Redux, HTML, CSS, Node.JS, Express, Sequelize, Passport, PostgreSQL.",
+          "aboutDescription": "Paso mis días (y a menudo noches) pintando el lienzo de Internet con proyectos y líneas de código, convirtiendo ceros y unos en experiencias web intuitivas y funcionales. Me encanta investigar, resolver problemas, aprender de los demás y enseñar, por eso en mi encontrarás un desarrollador con capacidad de resolución de conflictos, dispuesto a escuchar ideas y aportar todos mis conocimientos.",
 
-          "formula1": "Una SPA que permite visualizar información general y detallada de pilotos de fórmula uno, entre las funcionalidades permite crear nuevos pilotos, buscar, filtrar y ordenar pilotos por diferentes variables como nombre, fecha de nacimiento y equipo. Hecho con JavaScript, React, Redux, HTML, CSS, Node.JS, Express, Sequelize, PostgreSQL.",
+          "yearsDev": "Años desarrollando.",
 
-          "rickAndMorty": "Una SPA que consume datos de una API externa, y permite mostrar información sobre los personajes de Rick y Morty, entre las funcionalidades permite buscar, agregar los personajes a favoritos, filtrar y ordenar por género y nombre. Hecho con JavaScript, React, Redux, HTML, CSS.",
+          "fullProj": "Proyectos realizados.",
 
+          "masterTech": "Tecnologías dominadas.",
+
+          "moreAbout": "Más sobre mí",
+
+          "expertise": "Experiencia",
+
+          "expertiseText": "He trabajado en diferentes proyectos, tanto Frontend como Backend, experiencia trabajando con Scrum, Git y GitHub.",
+
+          "specialization": "Especialización",
+
+          "specializationText": "Dspués de muchas horas de código junto con mi obsesión por los detalles (y CSS) descubrí mi pasión por el Frontend.",
+
+          "goals": "Objetivos",
+
+          "goalsText": "Explorar nuevas tecnologías, participar en proyectos desafiantes que me permitan ampliar mis conocimientos y experiencia.",
+
+          "present": "Actualidad",
+
+          "presentText": "Aprendiendo nuevas tecnologías como Next.js y Typescript, mejorando mis conocimientos de ingés y comenzando nuevos proyectos.",
+
+          //Skills
+          "frontend": "Tengo experiencia desarrollando con HTML, CSS, JavaScript, React, Redux. Aprendiendo Next.js, Typescript y Tailwind.",
+          "backend": "Tengo experiencia desarrolando con Node.js, Express, Sequelize and PostgreSQL.",
+          "tools":"Algunas de las herramientas que uso son Git, GitHub, Insomnia, Postman y pgAdmin.",
+          "toolsTitle": "Herramientas",
+
+
+          // Contact
+          "contactTitle": "El escenario es tuyo",
+
+          "contactSubtitle1": "Siempre estoy buscando colaborar en proyectos interesantes.",
+
+          "contactSubtitle2": "Necesitas una mano? Tengo dos!",
+
+          "webDev": "Desarrollador Web - Frontend / Backend",
+
+          "email": "Dejar un correo",
+
+          "meeting": "Reservar reunión",
+
+          "resume": "Ver currículum",
+
+          // Work
+          "workTitle": "Proyectos",
         }
       }
     },

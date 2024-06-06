@@ -1,31 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bowlby+One+SC&family=Rubik+Moonrocks&display=swap');
-
-
-@font-face {
-  font-family: "proxima nova bold";
-  src: url(fonts/proximanova-bold-webfont.woff);
-}
-
-@font-face {
-  font-family: "proxima nova light";
-  src: url(fonts/proximanova-light-webfont.woff);
-}
-
-@font-face {
-  font-family: "proxima nova semibold";
-  src: url(fonts/proximanova-semibold-webfont.woff2);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body{
   margin: 0;
   padding: 0;
-  /* background-color: #fefffe; */
-  color: #323232;
-  background: #fefffe radial-gradient(#1414142c 10%, transparent 1%);
-  background-size: 11px 11px;
-  font-family: "proxima nova light", sans-serif;
-  overflow-x: hidden;
+  color: #ccc8c6;
+  background: #0c0c0d;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   -webkit-tap-highlight-color: transparent;
 }
 

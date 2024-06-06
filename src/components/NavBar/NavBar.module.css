@@ -1,246 +1,39 @@
-.container {
+.container{
     display: flex;
-    padding: 1em 10%;
-    background: #101011;
-    animation: containerAnimation;
-    animation-duration: .5s;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 900;
 }
 
-@keyframes containerAnimation {
-    from {
-        transform: translateY(-200px);
-    }
-}
-
-.containerHome {
-    animation: none;
-    background: #141414 radial-gradient(#ffffff17 10%, transparent 1%);
-    background-size: 11px 11px;
-}
-
-.mainContent {
+.main_content{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
+    background: #1e1e1e;
+    padding: 10px;
+    gap: 12px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    border: 2px solid #28282852;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.25) 0px 8px 8px 0px, rgba(0, 0, 0, 0.25) 0px 16px 16px 0px, rgba(0, 0, 0, 0.25) 0px 32px 32px 0px;
 }
 
-.navigationContainer {
-    position: absolute;
-    display: none;
-    transform: translateX(-100vw);
-    transition: .7s;
-    gap: 1em;
-}
-
-.navigationContainerAnimation {
-    transform: translateX(0px);
-}
-
-.linkNavigation {
-    display: flex;
-}
-
-.svgNavigation {
-    padding: 8px;
-    cursor: pointer;
-    color: #e0e0e0;
-    border-top: 1px solid #7575754f;
-    width: 35px;
-    height: 35px;
-    transition: .5s;
-    border-radius: 999999px;
-    background-color: #212021;
-}
-
-.logoContainer {
-    display: flex;
-    transition: .7s;
-}
-
-.logo {
-    width: 90px;
-    transition: .3s;
-}
-
-.logo:hover {
-    animation: jelly 0.6s ease;
-}
-
-.logoAnimation {
-    transform: translateX(0px)
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-.hamburger .inputHamburger {
-    display: none;
-}
-
-.svgHamburger {
-    height: 3em;
-    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.line {
-    fill: none;
-    stroke: #fff;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.lineTopBottom {
-    stroke-dasharray: 12 63;
-}
-
-.hamburger .inputHamburger:checked+.svgHamburger {
-    transform: rotate(-45deg);
-}
-
-.hamburger .inputHamburger:checked+.svgHamburger .lineTopBottom {
-    stroke-dasharray: 20 300;
-    stroke-dashoffset: -32.42;
-}
-
-.linkContainer {
+.link{
     display: flex;
     align-items: center;
-}
-
-.link {
+    justify-content: center;
     text-decoration: none;
-    color: #fff;
-    padding: 0 1em;
-    font-size: 1.1em;
-    transition: .1s;
+    color: #dbdbdb6c;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border: 3px solid #0f0f0f;
+    border-radius: 8px;
+    background: #0c0c0d;
 }
 
-.link:last-child {
-    padding-right: 0;
-}
-
-.link:hover {
-    color: #757575;
-}
-
-.linkCurrent {
-    color: #757575;
-}
-
-.buttonLengContainer {
-    display: flex;
-    margin: 0 20px;
-    gap: 15px;
-}
-
-.buttonLeng {
-    font-family: "proxima nova light";
-    border: none;
-    color: #fff;
-    background-color: transparent;
-    font-size: .9em;
-    border-bottom: 2px solid transparent;
-    padding: 0;
-    padding-bottom: 4px;
-    margin-top: 6px;
-    transition: .3s;
-    cursor: pointer;
-}
-
-.buttonLengSelected {
-    border-bottom: 2px solid #fff;
-}
-
-.linkMeet {
-    font-family: "proxima nova semibold";
-    font-size: 1em;
-    text-decoration: none;
-    background-color: #fff;
-    color: #323232;
-    margin-left: 1em;
-    padding: 14px;
-    border-radius: 5px;
-    transition: .3s;
-}
-
-.linkMeet:hover {
-    padding: 14px 1.5em;
-}
-
-@keyframes jelly {
-    from {
-        transform: scale(1, 1);
-    }
-
-    30% {
-        transform: scale(1.25, 0.75);
-    }
-
-    40% {
-        transform: scale(0.75, 1.25);
-    }
-
-    50% {
-        transform: scale(1.15, 0.85);
-    }
-
-    65% {
-        transform: scale(0.95, 1.05);
-    }
-
-    75% {
-        transform: scale(1.05, 0.95);
-    }
-
-    to {
-        transform: scale(1, 1);
-    }
-}
-
-
-@media screen and (max-width:810px) {
-    .container {
-        padding: 1em 5%;
-    }
-
-    .logoContainer {
-        transform: translateY(-300px);
-    }
-
-    .logoAnimation {
-        transform: translateX(0px)
-    }
-
-    .logo {
-        width: 70px;
-    }
-
-    .navigationContainer {
-        display: flex;
-    }
-
-    .svgNavigation {
-        width: 26px;
-        height: 26px;
-    }
-
-    .svgHamburger {
-        height: 2.5em;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .linkContainer {
-        display: none;
-    }
+.svg{
+    width: 30px;
+    height: 30px;
 }
