@@ -31,6 +31,15 @@
     border: 3px solid #0f0f0f;
     border-radius: 8px;
     background: #0c0c0d;
+    transition: .5s;
+}
+
+.link:hover{
+    border-color: #252424;
+}
+
+.current{
+    border-color: #252424;
 }
 
 .svg{

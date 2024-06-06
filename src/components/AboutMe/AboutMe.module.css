@@ -26,7 +26,7 @@
     height: 100%;
     object-position: top;
     image-rendering: auto;
-    filter: grayscale(40%);
+    /* filter: grayscale(40%); */
 }
 
 .subtitle{

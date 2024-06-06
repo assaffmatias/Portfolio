@@ -16,7 +16,7 @@ const AboutMe = () => {
             <p className={styles.description}>{t('aboutDescription')}</p>
             <div className={styles.numbers_content}>
                 <div className={styles.number_box}>
-                    <h3 className={styles.number}>2</h3>
+                    <h3 className={styles.number}>+1</h3>
                     <p className={styles.number_ref}>{t('yearsDev')}</p>
                 </div>
                 <div className={styles.number_box}>
