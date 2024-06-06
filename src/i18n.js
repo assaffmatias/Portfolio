@@ -62,9 +62,7 @@ i18n
           // Contact
           "contactTitle": "The Stage is Yours",
 
-          "contactSubtitle1": "I'm always looking to collaborate on interesting projects.",
-
-          "contactSubtitle2": "You need a hand? I have two!",
+          "contactSubtitle": "I'm always looking to collaborate on interesting projects. You need a hand? I have two!",
 
           "webDev": "Frontend / Backend - Web Developer",
 
@@ -135,9 +133,7 @@ i18n
           // Contact
           "contactTitle": "El escenario es tuyo",
 
-          "contactSubtitle1": "Siempre estoy buscando colaborar en proyectos interesantes.",
-
-          "contactSubtitle2": "Necesitas una mano? Tengo dos!",
+          "contactSubtitle": "Siempre estoy buscando colaborar en proyectos interesantes. Necesitas una mano? Tengo dos!",
 
           "webDev": "Desarrollador Web - Frontend / Backend",
 

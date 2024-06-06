@@ -12,11 +12,7 @@ const ContactMe = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>{t('contactTitle')}</h1>
-            <p className={styles.subtitle}>
-                {t('contactSubtitle1')}
-                <br />
-                {t('contactSubtitle2')}
-            </p>
+            <p className={styles.subtitle}>{t('contactSubtitle')}</p>
             <div className={styles.box_container}>
                 <div className={styles.photo_container}>
                     <img src={photo} alt="" className={styles.photo} />
