@@ -27,6 +27,7 @@ const DriversApi = () => {
                 <h3 className={styles.h3}>{t('madeWith')}</h3>
                 <p>JavaScript, React, Redux, HTML, CSS, Node.js, Express, Sequelize, PostgreSQL.</p>
             </div>
+            <Link className={styles.visit_button} to={'https://driversapi.vercel.app/'} target='_blank'>{t('visitProject')}</Link>
         </div>
     )
 }

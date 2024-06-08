@@ -26,7 +26,7 @@ const InnovaTech = () => {
                 <p>{t('innovaTechDescription')}</p>
                 <h3 className={styles.h3}>{t('madeWith')}</h3>
                 <p>JavaScript, React, Redux, HTML, CSS, Cloudinary, LocalStorage, Mercado Pago, Node.js, Express, Sequelize, Passport, PostgreSQL.</p>
-                {/* <Link className={styles.visit_button} to={'https://innovatechok.vercel.app/'} target='_blank'>{t('visitProject')}</Link> */}
+                <Link className={styles.visit_button} to={'https://innovatechok.vercel.app/'} target='_blank'>{t('visitProject')}</Link>
             </div>
         </div>
     )
