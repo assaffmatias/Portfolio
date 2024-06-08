@@ -18,7 +18,7 @@ const InnovaTech = () => {
                 <Link className={styles.view_button} to={'https://innovatechok.vercel.app/'} target='_blank'>{t('view')}</Link>
             </div>
             <div className={styles.image_container}>
-                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717861473/3_f83loj.jpg" alt="" className={styles.image} />
+                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717863588/3_knfwky.jpg" alt="" className={styles.image} />
             </div>
             <div className={styles.data_content}>
                 <h3 className={styles.h3}>{t('whatIsItAbout')}</h3>

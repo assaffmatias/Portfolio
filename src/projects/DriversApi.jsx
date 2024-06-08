@@ -18,7 +18,7 @@ const DriversApi = () => {
                 <Link className={styles.view_button} to={'https://driversapi.vercel.app/'} target='_blank'>{t('view')}</Link>
             </div>
             <div className={styles.image_container}>
-                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860543/2_pqo3w4.jpg" alt="" className={styles.image} />
+                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717863580/2_xbr6ft.jpg" alt="" className={styles.image} />
             </div>
             <div className={styles.data_content}>
                 <h3 className={styles.h3}>{t('whatIsItAbout')}</h3>
