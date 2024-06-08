@@ -21,8 +21,7 @@
     margin: 40px 0;
 }
 
-.box_content,
-.box_content_first {
+.box_content {
     background-color: #0c0c0c;
     border: 2px solid #dbdbdb0c;
     border-radius: 16px;
@@ -33,10 +32,9 @@
     text-decoration: none;
     text-align: center;
     color: #ccc8c6;
-}
-
-.box_content_first {
     animation: first-box-animation .5s forwards;
+    animation-delay: .3s;
+    opacity: 0;
 }
 
 .image_container {
