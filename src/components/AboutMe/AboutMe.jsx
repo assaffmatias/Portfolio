@@ -1,6 +1,5 @@
 import styles from './AboutMe.module.css';
 import { useTranslation } from 'react-i18next';
-import photo from '../../assets/pictures/banner.svg';
 import gsap from 'gsap';
 import { useRef, useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -31,7 +30,7 @@ const AboutMe = () => {
         <div className={styles.container}>
             <h1 className={styles.title}>Matias Assaff</h1>
             <div className={styles.photo_container}>
-                <img src={photo} alt="" className={styles.photo} />
+                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860807/banner_m4dukm.jpg" alt="" className={styles.photo} />
             </div>
             <h3 className={styles.subtitle}>{t('aboutSubtitle')}</h3>
             <p className={styles.description}>{t('aboutDescription')}</p>

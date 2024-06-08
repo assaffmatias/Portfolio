@@ -56,7 +56,6 @@
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    image-rendering: pixelated;
 }
 
 .data_content{
@@ -95,6 +94,10 @@
 
     .title_container{
         justify-content: center;
+    }
+
+    .title{
+        font-size: 32px;
     }
 
     .view_button{

@@ -1,9 +1,6 @@
 import styles from './Portfolio.module.css'
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import innovaTech from '../../assets/pictures/innova-tech.svg'
-import driversApi from '../../assets/pictures/drivers-api.svg'
-import rickAndMorty from '../../assets/pictures/rick-and-morty.svg'
 
 const Portfolio = () => {
     const { t } = useTranslation();
@@ -20,21 +17,21 @@ const Portfolio = () => {
             <div className={styles.box_container}>
                 <Link className={styles.box_content} to={'/work/innova-tech'} onClick={scroll}>
                     <div className={styles.image_container}>
-                        <img src={innovaTech} alt="" className={styles.image} />
+                        <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717861473/3_f83loj.jpg" alt="" className={styles.image} />
                     </div>
                     <h3 className={styles.box_title}>Innova Tech</h3>
                     <p className={styles.box_description}>{t('webDevelopment')} • 2024</p>
                 </Link>
                 <Link className={styles.box_content} to={'/work/drivers-api'} onClick={scroll}>
                     <div className={styles.image_container}>
-                        <img src={driversApi} alt="" className={styles.image} />
+                        <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860543/2_pqo3w4.jpg" alt="" className={styles.image} />
                     </div>
                     <h3 className={styles.box_title}>Formula 1</h3>
                     <p className={styles.box_description}>{t('webDevelopment')} • 2023</p>
                 </Link>
                 <Link className={styles.box_content} to={'/work/rick-and-morty'} onClick={scroll}>
                     <div className={styles.image_container}>
-                        <img src={rickAndMorty} alt="" className={styles.image} />
+                        <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860421/1_zobtv0.jpg" alt="" className={styles.image} />
                     </div>
                     <h3 className={styles.box_title}>Rick & Morty</h3>
                     <p className={styles.box_description}>{t('webDevelopment')} • 2023</p>

@@ -1,5 +1,4 @@
 import styles from './ContactMe.module.css'
-import photo from '../../assets/pictures/photo.svg'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
@@ -15,7 +14,7 @@ const ContactMe = () => {
             <p className={styles.subtitle}>{t('contactSubtitle')}</p>
             <div className={styles.box_container}>
                 <div className={styles.photo_container}>
-                    <img src={photo} alt="" className={styles.photo} />
+                    <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860874/photo_x6sg4f.jpg" alt="" className={styles.photo} />
                 </div>
                 <h3 className={styles.name}>Matias Assaff</h3>
                 <p className={styles.name_subtitle}>{t('webDev')}</p>

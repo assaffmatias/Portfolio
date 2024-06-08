@@ -1,7 +1,6 @@
 import styles from './Main.module.css'
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import photo from '../../assets/pictures/photo.svg'
 
 const Main = () => {
     const { t } = useTranslation();
@@ -14,7 +13,7 @@ const Main = () => {
             <div className={styles.title_content}>
                 <h1 className={styles.greeting}>{t('mainGreeting')}</h1>
                 <div className={styles.photo_container}>
-                    <img src={photo} alt="" className={styles.photo} />
+                    <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860874/photo_x6sg4f.jpg" alt="" className={styles.photo} />
                 </div>
                 <h1 className={styles.name}>Matias.</h1>
             </div>

@@ -54,7 +54,7 @@
 .numbers_content{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 32px;
+    margin: 32px 0;
 }
 
 .number{
