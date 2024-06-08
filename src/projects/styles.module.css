@@ -47,7 +47,7 @@
     overflow: hidden;
     margin: 40px 0;
     animation:scale-up-bottom-right .5s forwards;
-    animation-delay: .5s;
+    animation-delay: .2s;
     opacity: 0;
 }
 
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     animation:scale-up-bottom-right .5s forwards;
-    animation-delay: 1s;
+    animation-delay: .5s;
     opacity: 0;
 }
 
