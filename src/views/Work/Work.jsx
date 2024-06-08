@@ -1,9 +1,9 @@
-import Projects from '../../components/Projects/Projects'
+import Portfolio from '../../components/Portfolio/Portfolio'
 
 const Work = () => {
     return (
         <>
-        <Projects />
+        <Portfolio />
         </>
     )
 }

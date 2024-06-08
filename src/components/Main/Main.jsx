@@ -6,10 +6,6 @@ import photo from '../../assets/pictures/photo.svg'
 const Main = () => {
     const { t } = useTranslation();
 
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, });
-    };
-
     const email = 'matias.assaff98@gmail.com'
     const url = `mailto:${email}`
 
@@ -24,7 +20,7 @@ const Main = () => {
             </div>
             <h1 className={styles.subtitle}>{t('mainSubtitle')}</h1>
             <div className={styles.option_container}>
-                <Link to={'https://calendly.com/assaffmatias'} target='_blank' className={styles.option_box}>
+                <Link to={'https://calendly.com/assaffmatias/30min?back=1&month=2024-06'} target='_blank' className={styles.option_box}>
                     <div className={styles.content_box}>
                         <p className={styles.box_option}>A</p>
                         <p className={styles.box_p}>{t('mainOptionA')}</p>

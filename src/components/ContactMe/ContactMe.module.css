@@ -1,20 +1,24 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin: 5.5em auto;
-  max-width: 630px;
+  margin: 7.5em auto;
+  max-width: 650px;
 }
 
 .title {
   font-size: 42px;
   font-weight: 400;
   margin: 0;
+  animation:scale-up-bottom-right .5s forwards;
 }
 
 .subtitle {
   font-size: 18px;
-  margin-bottom: 32px;
   text-wrap: balance;
+  opacity: 0;
+  animation:scale-up-bottom-right .5s forwards;
+  animation-delay: .5s;
+  margin-bottom: 32px;
 }
 
 .title,
@@ -31,7 +35,11 @@
   margin-top: 30px;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.25) 0px 8px 8px 0px, rgba(0, 0, 0, 0.25) 0px 16px 16px 0px, rgba(0, 0, 0, 0.25) 0px 32px 32px 0px;
+  animation: first-box-animation .5s forwards;
+  animation-delay: .7s;
+  opacity: 0;
 }
+
 
 .photo_container {
   width: 120px;
@@ -40,6 +48,7 @@
   overflow: hidden;
   margin: 32px auto;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .photo {
@@ -86,6 +95,9 @@
   width: 100%;
   margin: 50px 0;
   gap: 32px;
+  animation: first-box-animation .5s forwards;
+  animation-delay: .9s;
+  opacity: 0;
 }
 
 .social_link {
@@ -119,10 +131,40 @@
   width: 100%;
 }
 
+@keyframes scale-up-bottom-right{
+  0%{
+    opacity: 0;
+    transform:scale(.5);
+    transform-origin:center bottom
+  }
+  
+  100%{
+    opacity: 1;
+    transform:scale(1);
+    transform-origin:center bottom
+  }
+}
+
+@keyframes first-box-animation {
+  from{
+      opacity: 0;
+      transform: translateY(200px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 @media screen and (max-width: 810px) {
   .container{
       max-width: none;
-      width: 94%;
+      width: 90%;
+  }
+
+  .title{
+    font-size: 32px;
   }
 
   .link_container{
