@@ -51,8 +51,8 @@ i18n
 
 
           // Contact
-          "contactTitle": "Contact Means",
-          "contactSubtitle": "You need a hand? I have two!",
+          "contactTitle": "The Stage is Yours",
+          "contactSubtitle": "I'm always looking to work on new projects.",
           "webDev": "Frontend / Backend - Web Developer",
           "email": "Drop an E-mail",
           "meeting": "Book a meeting",
@@ -134,8 +134,8 @@ i18n
 
 
           // Contact
-          "contactTitle": "Medios de Contacto",
-          "contactSubtitle": "Necesitas una mano? Tengo dos!",
+          "contactTitle": "El Escenario es Tuyo",
+          "contactSubtitle": "Siempre estoy buscando trabajar en nuevos proyectos.",
           "webDev": "Desarrollador Web - Frontend / Backend",
           "email": "Dejar un correo",
           "meeting": "Reservar reunión",

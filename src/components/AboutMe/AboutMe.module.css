@@ -21,7 +21,7 @@
     overflow: hidden;
     border-radius: 16px;
     animation: first-box-animation .5s forwards;
-    animation-delay: .2s;
+    animation-delay: .5s;
     opacity: 0;
 }
 
@@ -39,7 +39,7 @@
     font-weight: 400;
     margin-bottom: 0;
     animation:scale-up-bottom-right .5s forwards;
-    animation-delay: .5s;
+    animation-delay: .7s;
     opacity: 0;
 }
 
@@ -47,7 +47,7 @@
     font-size: 18px;
     font-weight: 400;
     animation:scale-up-bottom-right .5s forwards;
-    animation-delay: .5s;
+    animation-delay: .7s;
     opacity: 0;
 }
 

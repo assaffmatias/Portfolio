@@ -170,4 +170,8 @@
     flex-direction: column;
     width: 90%;
   }
+
+  .link{
+    text-align: center;
+  }
 }
