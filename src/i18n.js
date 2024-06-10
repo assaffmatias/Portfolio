@@ -136,7 +136,7 @@ i18n
           // Contact
           "contactTitle": "El Escenario es Tuyo",
           "contactSubtitle": "Siempre estoy buscando trabajar en nuevos proyectos.",
-          "webDev": "Desarrollador Web - Frontend / Backend",
+          "webDev": "Frontend / Backend - Desarrollador Web",
           "email": "Dejar un correo",
           "meeting": "Reservar reunión",
           "resume": "Ver currículum",
