@@ -17,20 +17,10 @@
     display: flex;
     animation: scroll 10s linear infinite;
     gap: 50px;
-    cursor: pointer;
-}
-
-.slide_track:hover{
-    animation-play-state: paused;
 }
 
 .svg{
    width: 34px;
-}
-
-.svg_first{
-    width: 34px;
-    margin-left: 30px;
 }
 
 .link{
@@ -57,7 +47,7 @@
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-51%);
     }
 }
 

@@ -38,7 +38,7 @@ i18n
           "ability": "Ability",
           "abilityText": "I've the ability to learn quickly and adapt to different environments easily along with my communication skills.",
           "staff": "Staff",
-          "staffText": "I like bringing ideas to life in the browser, I've a natural curiosity, and I constantly work to improve my skills.",
+          "personalText": "I like bringing ideas to life in the browser, I've a natural curiosity, and I constantly work to improve my skills.",
 
 
           //Skills
@@ -51,8 +51,8 @@ i18n
 
 
           // Contact
-          "contactTitle": "The Stage is Yours",
-          "contactSubtitle": "I'm always looking to collaborate on new projects. You need a hand? I have two!",
+          "contactTitle": "Contact Means",
+          "contactSubtitle": "You need a hand? I have two!",
           "webDev": "Frontend / Backend - Web Developer",
           "email": "Drop an E-mail",
           "meeting": "Book a meeting",
@@ -122,8 +122,7 @@ i18n
           "ability": "Capacidad",
           "abilityText": "Tengo capacidad para aprender rapidamente y adaptarme a diferentes entornos con facilidad junto con mi habilidad de comunicación.",
 
-          "staff": "Personal",
-          "staffText": "Me gusta darle vida a las ideas en el navegador,  tengo una curiosidad natural, y trabajo constantemente para mejorar mis habilidades.",
+          "personalText": "Me gusta darle vida a las ideas en el navegador,  tengo una curiosidad natural, y trabajo constantemente para mejorar mis habilidades.",
 
           //Skills
           "skillsTitle": "Mis habilidades",
@@ -135,8 +134,8 @@ i18n
 
 
           // Contact
-          "contactTitle": "El escenario es tuyo",
-          "contactSubtitle": "Siempre estoy buscando colaborar en nuevos proyectos. Necesitas una mano? Tengo dos!",
+          "contactTitle": "Medios de Contacto",
+          "contactSubtitle": "Necesitas una mano? Tengo dos!",
           "webDev": "Desarrollador Web - Frontend / Backend",
           "email": "Dejar un correo",
           "meeting": "Reservar reunión",

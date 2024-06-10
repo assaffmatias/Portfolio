@@ -33,7 +33,7 @@
     text-align: center;
     color: #ccc8c6;
     animation: first-box-animation .5s forwards;
-    animation-delay: .3s;
+    animation-delay: .5s;
     opacity: 0;
 }
 

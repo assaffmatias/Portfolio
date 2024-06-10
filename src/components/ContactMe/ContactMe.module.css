@@ -14,7 +14,6 @@
 
 .subtitle {
   font-size: 18px;
-  text-wrap: balance;
   opacity: 0;
   animation:scale-up-bottom-right .5s forwards;
   animation-delay: .5s;

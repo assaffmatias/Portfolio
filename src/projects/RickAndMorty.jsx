@@ -18,7 +18,7 @@ const RickAndMorty = () => {
                 <Link className={styles.view_button} to={'https://api-of-rickandmorty.vercel.app/'} target='_blank'>{t('view')}</Link>
             </div>
             <div className={styles.image_container}>
-                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717863524/1_jjw0j5.jpg" alt="" className={styles.image} />
+                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717973607/1_cwpgcy.jpg" alt="" className={styles.image} />
             </div>
             <div className={styles.data_content}>
                 <h3 className={styles.h3}>{t('whatIsItAbout')}</h3>

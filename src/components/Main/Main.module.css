@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   margin: 5.5em auto;
 }
 
-.title_content{
+.title_content {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -21,36 +21,36 @@
   opacity: 0;
 }
 
-.greeting{
-  animation:scale-up-bottom-right .5s forwards;
+.greeting {
+  animation: scale-up-bottom-right .5s forwards;
   animation-delay: .5s;
 }
 
-.name{
-  animation:scale-up-bottom-right .5s forwards;
+.name {
+  animation: scale-up-bottom-right .5s forwards;
   animation-delay: .9s;
 }
 
-.subtitle{
+.subtitle {
   animation: reveal .7s forwards;
   animation-delay: 1.5s;
 }
 
-.photo_container{
+.photo_container {
   width: 70px;
   height: 70px;
   border-radius: 999999px;
   overflow: hidden;
   opacity: 0;
-  animation:scale-up-bottom-right .5s forwards;
+  animation: scale-up-bottom-right .5s forwards;
   animation-delay: .7s;
 }
 
-.photo{
+.photo {
   width: 100%;
 }
 
-.option_container{
+.option_container {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -77,38 +77,38 @@
   color: #ccc8c6;
 }
 
-.option_box:hover{
+.option_box:hover {
   border: 2px solid #dbdbdb23;
 }
 
-.option_box:hover .box_p{
+.option_box:hover .box_p {
   color: #666666;
 }
 
-.option_box:hover .arrow{
+.option_box:hover .arrow {
   transform: translateX(10px);
   color: #666666;
 }
 
-.content_box{
+.content_box {
   display: flex;
   gap: 16px;
 }
 
-.box_option{
+.box_option {
   font-weight: 700;
   color: #666666;
 }
 
-.box_p{
+.box_p {
   transition: .5s;
 }
 
-.arrow{
+.arrow {
   transition: .5s;
 }
 
-.footer_content{
+.footer_content {
   margin-top: 40px;
   display: flex;
   align-items: center;
@@ -118,7 +118,7 @@
   opacity: 0;
 }
 
-.footer_link{
+.footer_link {
   text-decoration: none;
   color: #ccc8c6;
   padding-left: 2px;
@@ -146,53 +146,56 @@
   transition: 1s;
 }
 
-.footer_link:hover .loader::before{
+.footer_link:hover .loader::before {
   width: 100%;
 }
 
-@keyframes reveal{
-  from{
+@keyframes reveal {
+  from {
     opacity: 0;
   }
 
-  to{
+  to {
     opacity: 1;
   }
 }
 
-@keyframes scale-up-bottom-right{
-  0%{
+@keyframes scale-up-bottom-right {
+  0% {
     opacity: 0;
-    transform:scale(.5);
-    transform-origin:center bottom
+    transform: scale(.5);
+    transform-origin: center bottom
   }
-  
-  100%{
+
+  100% {
     opacity: 1;
-    transform:scale(1);
-    transform-origin:center bottom
+    transform: scale(1);
+    transform-origin: center bottom
   }
 }
 
 @media screen and (max-width: 810px) {
-  .container{
-      max-width: none;
-      width: 94%;
+  .container {
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    max-width: none;
+    width: 94%;
   }
 
-  .option_container{
+  .option_container {
     width: 100%;
   }
 
   .greeting,
   .name,
-  .subtitle{
+  .subtitle {
     font-size: 30px;
     font-weight: 300;
     margin: 2px 0;
   }
-  
-  .photo_container{
+
+  .photo_container {
     width: 60px;
     height: 60px;
     border-radius: 999999px;
