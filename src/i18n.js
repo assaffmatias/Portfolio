@@ -32,21 +32,23 @@ i18n
           "masterTech": "Mastered technologies.",
           "moreAbout": "More about me",
           "knowledge": "Knowledge",
-          "knowledgeText": "I've worked as a team using the agile Scrum methodology where I also expanded my knowledge about Git and GitHub.",
+          "knowledgeText": "Experience in the project management framework using the agile Scrum methodology and in collaborative work with GitHub.",
           "goals": "Goals",
           "goalsText": "Explore new technologies, participate in challenging projects that allow me to expand my knowledge and experience.",
           "ability": "Ability",
           "abilityText": "I've the ability to learn quickly and adapt to different environments easily along with my communication skills.",
           "staff": "Staff",
-          "personalText": "I like bringing ideas to life in the browser, I've a natural curiosity, and I constantly work to improve my skills.",
+          "personalText": "I'm a person with a natural curiosity who likes to bring ideas to life and constantly work on improving skills.",
 
+
+          //Expertise
+          "experienceTitle": "Experience",
+          "remote": "Remote",
+          "present": "Present",
+          "webDeveloper": "Web Developer",
+          "softwindDescription": "Development of front-end solutions with technologies such as JavaScript/Typescript, React and tools such as Jira and Storybook.",
 
           //Skills
-          "skillsTitle": "My Skills",
-          "frontend": "I've experience developing with HTML, CSS, JavaScript, React, Redux. Learning Next.js, Typescript and Tailwind.",
-          "backend": "I've experience developing with Node.js, Express, Sequelize and PostgreSQL.",
-          "tools": "Some of the tools I use are Git, GitHub, Insomnia, Postman and pgAdmin.",
-          "toolsTitle": "Tools",
           "inTouch": "Get in Touch",
 
 
@@ -114,24 +116,25 @@ i18n
           "moreAbout": "Más sobre mí",
 
           "knowledge": "Conocimientos",
-          "knowledgeText": "Trabajé en equipo utilizando la metodología ágil Scrum en donde también amplié mis conocimientos sobre Git y GitHub",
-          
+          "knowledgeText": "Experiencia en el marco de gestión de proyectos utilizando la metodología ágil Scrum y en el trabajo colaborativo con GitHub.",
+
           "goals": "Objetivos",
           "goalsText": "Explorar nuevas tecnologías, participar en proyectos desafiantes que me permitan ampliar mis conocimientos y experiencia.",
 
           "ability": "Capacidad",
-          "abilityText": "Tengo capacidad para aprender rapidamente y adaptarme a diferentes entornos con facilidad junto con mi habilidad de comunicación.",
+          "abilityText": "Tengo capacidad para aprender rapidamente y adaptarme a diferentes entornos con facilidad junto con mis habilidades de comunicación.",
 
-          "personalText": "Me gusta darle vida a las ideas en el navegador,  tengo una curiosidad natural, y trabajo constantemente para mejorar mis habilidades.",
+          "personalText": "Soy una persona con una curiosidad natural a la que le gusta darle vida a las ideas y trabajar constantemente en mejorar habilidades.",
+
+          //Expertise
+          "experienceTitle": "Experiencia",
+          "remote": "Remoto",
+          "present": "Presente",
+          "webDeveloper": "Desarrollador Web",
+          "softwindDescription": "Desarrollo de soluciones front-end con tecnologías como JavaScript/Typescript, React y herramientas como Jira y Storybook.",
 
           //Skills
-          "skillsTitle": "Mis habilidades",
-          "frontend": "Tengo experiencia desarrollando con HTML, CSS, JavaScript, React, Redux. Aprendiendo Next.js, Typescript y Tailwind.",
-          "backend": "Tengo experiencia desarrolando con Node.js, Express, Sequelize and PostgreSQL.",
-          "tools": "Algunas de las herramientas que uso son Git, GitHub, Insomnia, Postman y pgAdmin.",
-          "toolsTitle": "Herramientas",
           "inTouch": "Contacto",
-
 
           // Contact
           "contactTitle": "El Escenario es Tuyo",

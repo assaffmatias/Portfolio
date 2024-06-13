@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { useRef, useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger)
+import Experience from '../Experience/Experience';
 
 const AboutMe = () => {
     const { t } = useTranslation();
@@ -48,6 +49,7 @@ const AboutMe = () => {
                     <p className={styles.number_ref}>{t('masterTech')}</p>
                 </div>
             </div>
+            <Experience />
             <h3 className={styles.vision_title} ref={elementRef[3]}>{t('moreAbout')}</h3>
             <div className={styles.vision_content} ref={elementRef[4]}>
                 <div className={styles.vision_box}>
