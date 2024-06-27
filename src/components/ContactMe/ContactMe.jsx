@@ -21,7 +21,7 @@ const ContactMe = () => {
                 <div className={styles.link_container}>
                     <Link className={styles.link} to={url} target='_blank'>{t('email')}</Link>
                     <Link className={styles.link} to={'https://calendly.com/assaffmatias'} target='_blank'>{t('meeting')}</Link>
-                    <Link className={styles.link} to={'https://drive.google.com/file/d/1xPmrNXkrTZAb1ldLY5Jwa6RRTUy2KoUt/view'} target='_blank' >{t('resume')}</Link>
+                    <Link className={styles.link} to={'https://wa.me/5493816657350?text=Hola!'} target='_blank' >WhatsApp</Link>
                 </div>
             </div>
             <div className={styles.social_container}>
