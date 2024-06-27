@@ -15,7 +15,7 @@
 
 .slide_track{
     display: flex;
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
     gap: 50px;
 }
 
