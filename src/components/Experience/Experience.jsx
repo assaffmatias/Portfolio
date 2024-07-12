@@ -49,7 +49,7 @@ const Experience = () => {
                         onChange={() => toggleAccordion(0)}
                     />
                     <label className={styles.label} htmlFor="first">
-                        {t('webDeveloper')} @ Softwind 〢 2024 - {t('present')}
+                        Front-End @ Softwind 〢 2024 - {t('present')}
                     </label>
                     <div className={`${styles.content} ${selectedAccordion === 0 ? styles.open : ''}`}>
                         <div className={styles.description_container}>
