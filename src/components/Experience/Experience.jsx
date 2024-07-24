@@ -64,12 +64,16 @@ const Experience = () => {
                                     <p className={styles.p}>{t('remote')}</p>
                                 </div>
                                 <div className={styles.svg_content}>
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3459ea" viewBox="0 0 24 24">
+                                    {/* <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3459ea" viewBox="0 0 24 24">
                                         <path fill-rule="evenodd" d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z" clipRule="evenodd" />
                                         <path fillRule="evenodd" d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z" clipRule="evenodd" />
+                                    </svg> */}
+                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3459ea" viewBox="0 0 24 24">
+                                        <path fillRule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clipRule="evenodd" />
+                                        <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                                     </svg>
-                                    <Link className={styles.link} to={'https://www.softwind.com.ar/'} target='_blank'>
-                                        softwind.com.ar
+                                    <Link className={styles.link} to={'https://www.linkedin.com/company/softwind-solutions/'} target='_blank'>
+                                        LinkedIn
                                     </Link>
                                 </div>
                             </div>
@@ -79,7 +83,7 @@ const Experience = () => {
                                 <button className={styles.button}>Typescript</button>
                                 <button className={styles.button}>React</button>
                                 <button className={styles.button}>Tailwind</button>
-                                <button className={styles.button}>Storybook</button>
+                                {/* <button className={styles.button}>Storybook</button> */}
                                 <button className={styles.button}>Jira</button>
                             </div>
                         </div>

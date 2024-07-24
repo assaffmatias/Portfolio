@@ -46,7 +46,7 @@ i18n
           "remote": "Remote",
           "present": "Present",
           "webDeveloper": "Web Developer",
-          "softwindDescription": "Development of Front-End solutions with technologies such as JavaScript/Typescript, React and tools such as Jira and Storybook.",
+          "softwindDescription": "Development of Front-End solutions with technologies such as JavaScript, Typescript, React and Tailwind.",
 
           //Skills
           "inTouch": "Get in Touch",
@@ -131,7 +131,7 @@ i18n
           "remote": "Remoto",
           "present": "Presente",
           "webDeveloper": "Desarrollador Web",
-          "softwindDescription": "Desarrollo de soluciones Front-End con tecnologías como JavaScript/Typescript, React y herramientas como Jira y Storybook.",
+          "softwindDescription": "Desarrollo de soluciones Front-End con tecnologías como JavaScript, Typescript, React y Tailwind.",
 
           //Skills
           "inTouch": "Contacto",
