@@ -31,7 +31,7 @@ const Portfolio = () => {
                 </Link>
                 <Link className={styles.box_content} to={'/work/rick-and-morty'} onClick={scroll}>
                     <div className={styles.image_container}>
-                        <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717973607/1_cwpgcy.jpg" alt="" className={styles.image} />
+                        <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1721964648/rym-mockup_jdjtfj.png" alt="" className={styles.image} />
                     </div>
                     <h3 className={styles.box_title}>Rick & Morty</h3>
                     <p className={styles.box_description}>{t('webDevelopment')} • 2023</p>
