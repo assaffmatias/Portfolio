@@ -47,6 +47,7 @@ i18n
           "present": "Present",
           "webDeveloper": "Web Developer",
           "softwindDescription": "Development of Front-End solutions with technologies such as JavaScript, Typescript, React and Tailwind.",
+          "softwindTime": "Jun-Aug",
 
           //Skills
           "inTouch": "Get in Touch",
@@ -132,6 +133,7 @@ i18n
           "present": "Presente",
           "webDeveloper": "Desarrollador Web",
           "softwindDescription": "Desarrollo de soluciones Front-End con tecnologías como JavaScript, Typescript, React y Tailwind.",
+          "softwindTime": "Jun-Ago",
 
           //Skills
           "inTouch": "Contacto",
