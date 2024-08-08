@@ -33,7 +33,7 @@ const AboutMe = () => {
             <div className={styles.photo_container}>
                 <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717974677/banner_eok4nk.jpg" alt="" className={styles.photo} />
             </div>
-            <h3 className={styles.subtitle}>{t('aboutSubtitle')}</h3>
+            <h3 className={styles.subtitle}>Front-End & App Developer</h3>
             <p className={styles.description}>{t('aboutDescription')}</p>
             <div className={styles.numbers_content}>
                 <div className={styles.number_box} ref={elementRef[0]} >
@@ -45,7 +45,7 @@ const AboutMe = () => {
                     <p className={styles.number_ref}>{t('fullProj')}</p>
                 </div>
                 <div className={styles.number_box} ref={elementRef[2]}>
-                    <h3 className={styles.number}>10</h3>
+                    <h3 className={styles.number}>8</h3>
                     <p className={styles.number_ref}>{t('masterTech')}</p>
                 </div>
             </div>

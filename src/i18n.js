@@ -23,16 +23,16 @@ i18n
           "sayHi": "Just Say Hi",
 
           // About
-          "aboutSubtitle": "I'm a Web Developer",
+          "aboutSubtitle": "Front-End & App Developer",
 
           "aboutDescription": "I spend my days (and often nights) painting the canvas of the internet with projects and lines of code, turning zeros and ones into engaging and intuitive web experiences. When I'm not working on pixels I'm usually playing soccer, meeting new people or enjoying a good coffee.",
 
-          "yearsDev": "Years developing.",
-          "fullProj": "Fulfilled projects.",
-          "masterTech": "Mastered technologies.",
+          "yearsDev": "Years into development",
+          "fullProj": "Collaborative projects",
+          "masterTech": "Mastered technologies",
           "moreAbout": "More about me",
           "knowledge": "Knowledge",
-          "knowledgeText": "Experience in the project management framework using the agile Scrum methodology and in collaborative work with GitHub.",
+          "knowledgeText": "Web and App Development with experience in agile methodologies such as Scrum and collaborative work using GitHub.",
           "goals": "Goals",
           "goalsText": "Explore new technologies, participate in challenging projects that allow me to expand my knowledge and experience.",
           "ability": "Ability",
@@ -48,6 +48,7 @@ i18n
           "webDeveloper": "Web Developer",
           "softwindDescription": "Development of Front-End solutions with technologies such as JavaScript, Typescript, React and Tailwind.",
           "softwindTime": "Jun-Aug",
+          "haomaiDescription": "Developing Full Stack and mobile app solutions with technologies such as React Native, JS, Node and MySQL.",
 
           //Skills
           "inTouch": "Get in Touch",
@@ -110,14 +111,14 @@ i18n
 
           "aboutDescription": "Paso mis días (y a menudo noches) pintando el lienzo de Internet con proyectos y líneas de código, convirtiendo ceros y unos en experiencias web atractivas e intuitivas. Cuando no estoy trabajando en píxeles suelo jugar al fútbol, conocer gente nueva o disfrutar de un buen café.",
 
-          "yearsDev": "Años desarrollando.",
-          "fullProj": "Proyectos realizados.",
-          "masterTech": "Tecnologías dominadas.",
+          "yearsDev": "Años de desarrollo",
+          "fullProj": "Proyectos colaborativos",
+          "masterTech": "Tecnologías dominadas",
 
           "moreAbout": "Más sobre mí",
 
           "knowledge": "Conocimientos",
-          "knowledgeText": "Experiencia en el marco de gestión de proyectos utilizando la metodología ágil Scrum y en el trabajo colaborativo con GitHub.",
+          "knowledgeText": "Desarrollo Web y de Apps con experiencia en metodologías ágiles como Scrum y trabajo colaborativo usando GitHub.",
 
           "goals": "Objetivos",
           "goalsText": "Explorar nuevas tecnologías, participar en proyectos desafiantes que me permitan ampliar mis conocimientos y experiencia.",
@@ -134,6 +135,7 @@ i18n
           "webDeveloper": "Desarrollador Web",
           "softwindDescription": "Desarrollo de soluciones Front-End con tecnologías como JavaScript, Typescript, React y Tailwind.",
           "softwindTime": "Jun-Ago",
+          "haomaiDescription": "Desarrollando soluciones Fullstack y aplicaciones móviles con tecnologías como React Native, JS, Node y MySQL.",
 
           //Skills
           "inTouch": "Contacto",

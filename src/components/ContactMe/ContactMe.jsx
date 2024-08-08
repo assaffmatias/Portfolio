@@ -17,7 +17,7 @@ const ContactMe = () => {
                     <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717860874/photo_x6sg4f.jpg" alt="" className={styles.photo} />
                 </div>
                 <h3 className={styles.name}>Matias Assaff</h3>
-                <p className={styles.name_subtitle}>{t('webDev')}</p>
+                <p className={styles.name_subtitle}>Front-End & App Developer</p>
                 <div className={styles.link_container}>
                     <Link className={styles.link} to={url} target='_blank'>{t('email')}</Link>
                     <Link className={styles.link} to={'https://calendly.com/assaffmatias'} target='_blank'>{t('meeting')}</Link>
