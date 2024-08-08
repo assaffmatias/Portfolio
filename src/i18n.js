@@ -42,7 +42,7 @@ i18n
 
 
           //Expertise
-          "experienceTitle": "Experience",
+          "experienceTitle": "Professional Experience",
           "remote": "Remote",
           "present": "Present",
           "webDeveloper": "Web Developer",
@@ -129,7 +129,7 @@ i18n
           "personalText": "Soy una persona con una curiosidad natural a la que le gusta darle vida a las ideas y trabajar constantemente en mejorar habilidades.",
 
           //Expertise
-          "experienceTitle": "Experiencia",
+          "experienceTitle": "Experiencia Profesional",
           "remote": "Remoto",
           "present": "Presente",
           "webDeveloper": "Desarrollador Web",

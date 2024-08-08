@@ -34,7 +34,15 @@
     #00000040 0px 16px 16px 0px, #00000040 0px 32px 32px 0px;
 }
 
+.time{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 60px;
+}
+
 .label{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,12 +51,13 @@
     cursor: pointer;
     font-weight: 400;
     text-wrap: balance;
+    /* background-color: yellowgreen; */
 }
 
 .label::before {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path stroke="grey" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 10 4 4 4-4" fill="transparent"/></svg>');
     font-size: 24px;
     width: 15px;
@@ -72,7 +81,7 @@
     margin: 0;
     max-height: 0;
     overflow: hidden;
-    transition: .5s;
+    transition: .3s;
 }
 
 .input[type="radio"]:checked + .label + .content {
@@ -109,7 +118,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 80%;
-    /* background-color: yellowgreen; */
 }
 
 .svg_container{
@@ -147,7 +155,6 @@
     margin-top: 0;
     color: #ccc8c6;
     max-width: 100%;
-    /* background-color: blueviolet; */
 }
 
 .button_container{
@@ -158,12 +165,21 @@
     max-width: 100%;
 }
 
-.button{
+.button_h,
+.button_s{
     font-family: "Manrope", sans-serif;
     border: none;
     padding: 5px 10px;
     border-radius: 3px;
+}
+
+.button_s{
     background-color: #2d58f2;
+}
+
+.button_h{
+    background-color: #bbdc32;
+    color: #0c0c0c;
 }
 
 .logo_container_mobile{
@@ -191,5 +207,9 @@
 
     .logo{
         margin: 16px 0;
+    }
+
+    .time{
+        display: none;
     }
 }
