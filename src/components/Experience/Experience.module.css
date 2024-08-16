@@ -59,6 +59,7 @@
     align-items: center;
     justify-content: start;
     content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path stroke="grey" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 10 4 4 4-4" fill="transparent"/></svg>');
+    font-weight: 100;
     font-size: 24px;
     width: 15px;
     height: 15px;
@@ -81,13 +82,15 @@
     margin: 0;
     max-height: 0;
     overflow: hidden;
-    transition: .3s;
+    transition: .5s;
+    opacity: 0;
 }
 
 .input[type="radio"]:checked + .label + .content {
     display: flex;
     max-width: 100%;
     max-height: 400px;
+    opacity: 1;
 }
 
 .input[type="radio"]:checked + .label::before{
@@ -178,7 +181,7 @@
 }
 
 .button_h{
-    background-color: #bbdc32;
+    background-color: #d2f65a;
     color: #0c0c0c;
 }
 
