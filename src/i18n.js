@@ -117,8 +117,8 @@ i18n
 
           "moreAbout": "Más sobre mí",
 
-          "knowledge": "Conocimientos",
-          "knowledgeText": "Desarrollo Web y de Apps con experiencia en metodologías ágiles como Scrum y trabajo colaborativo usando GitHub.",
+          "knowledge": "Conocimiento",
+          "knowledgeText": "Desarrollo Web y de Aplicaciones con experiencia en metodologías ágiles como Scrum y trabajo colaborativo usando GitHub.",
 
           "goals": "Objetivos",
           "goalsText": "Explorar nuevas tecnologías, participar en proyectos desafiantes que me permitan ampliar mis conocimientos y experiencia.",

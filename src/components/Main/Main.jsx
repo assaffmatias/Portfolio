@@ -49,7 +49,7 @@ const Main = () => {
             </div>
             <div className={styles.footer_content}>
                 <p className={styles.footer_p}>{t('neverMind')}</p>
-                <Link to={`https://wa.me/5493816657350?text=Hola!`} target='_blank' className={styles.footer_link}>
+                <Link to={`https://wa.me/5493816657350?text=Hi Matias, how are you?`} target='_blank' className={styles.footer_link}>
                     {t('sayHi')}
                     <div className={styles.loader}></div>
                 </Link>
