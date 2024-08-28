@@ -20,7 +20,7 @@ const ContactMe = () => {
                 <p className={styles.name_subtitle}>Front-End & App Developer</p>
                 <div className={styles.link_container}>
                     <Link className={styles.link} to={url} target='_blank'>{t('email')}</Link>
-                    <Link className={styles.link} to={'https://calendly.com/assaffmatias'} target='_blank'>{t('meeting')}</Link>
+                    <Link className={styles.link} to={'https://calendly.com/assaffmatias/30min?back=1&month=2024-08'} target='_blank'>{t('meeting')}</Link>
                     <Link className={styles.link} to={'https://wa.me/5493816657350?text=Hi Matias, how are you?'} target='_blank' >WhatsApp</Link>
                 </div>
             </div>

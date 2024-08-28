@@ -51,7 +51,6 @@
     cursor: pointer;
     font-weight: 400;
     text-wrap: balance;
-    /* background-color: yellowgreen; */
 }
 
 .label::before {
@@ -181,7 +180,7 @@
 }
 
 .button_h{
-    background-color: #d2f65a;
+    background-color: #5dbcca;
     color: #0c0c0c;
 }
 

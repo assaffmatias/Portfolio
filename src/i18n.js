@@ -25,7 +25,7 @@ i18n
           // About
           "aboutSubtitle": "Front-End & App Developer",
 
-          "aboutDescription": "I spend my days (and often nights) painting the canvas of the internet with projects and lines of code, turning zeros and ones into engaging and intuitive web experiences. When I'm not working on pixels I'm usually playing soccer, meeting new people or enjoying a good coffee.",
+          "aboutDescription": "I spend my days (and often nights) painting the canvas of the internet with projects and lines of code, turning zeros and ones into engaging and intuitive web experiences. When I'm not working on pixels I'm usually playing soccer, meeting new people or enjoying a coffee.",
 
           "yearsDev": "Years into development",
           "fullProj": "Collaborative projects",
@@ -48,7 +48,8 @@ i18n
           "webDeveloper": "Web Developer",
           "softwindDescription": "Development of Front-End solutions with technologies such as JavaScript, Typescript, React and Tailwind.",
           "softwindTime": "Jun-Aug",
-          "haomaiDescription": "Developing Full Stack and mobile app solutions with technologies such as React Native, JS, Node and MySQL.",
+          "haomaiDescription": "Developing mobile applications and Fullstack solutions with technologies such as React Native, JavaScript, Typescript, Node.js and MySQL.",
+          "appDeveloper": "App Developer",
 
           //Skills
           "inTouch": "Get in Touch",
@@ -109,7 +110,7 @@ i18n
           // About
           "aboutSubtitle": "Soy un Desarrollador Web",
 
-          "aboutDescription": "Paso mis días (y a menudo noches) pintando el lienzo de Internet con proyectos y líneas de código, convirtiendo ceros y unos en experiencias web atractivas e intuitivas. Cuando no estoy trabajando en píxeles suelo jugar al fútbol, conocer gente nueva o disfrutar de un buen café.",
+          "aboutDescription": "Paso mis días (y a menudo noches) pintando el lienzo de Internet con proyectos y líneas de código, convirtiendo ceros y unos en experiencias web atractivas e intuitivas. Cuando no estoy trabajando en píxeles suelo jugar al fútbol, conocer gente nueva o disfrutar de un café.",
 
           "yearsDev": "Años de desarrollo",
           "fullProj": "Proyectos colaborativos",
@@ -135,7 +136,8 @@ i18n
           "webDeveloper": "Desarrollador Web",
           "softwindDescription": "Desarrollo de soluciones Front-End con tecnologías como JavaScript, Typescript, React y Tailwind.",
           "softwindTime": "Jun-Ago",
-          "haomaiDescription": "Desarrollando soluciones Fullstack y aplicaciones móviles con tecnologías como React Native, JS, Node y MySQL.",
+          "haomaiDescription": "Desarrollando aplicaciones móviles y soluciones Fullstack con tecnologías como React Native, JavaScript, Typescript, Node.js y MySQL.",
+          "appDeveloper": "Desarrollador de App",
 
           //Skills
           "inTouch": "Contacto",
