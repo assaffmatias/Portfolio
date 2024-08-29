@@ -31,7 +31,7 @@ const AboutMe = () => {
         <div className={styles.container}>
             <h1 className={styles.title}>Matias Assaff</h1>
             <div className={styles.photo_container}>
-                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1724838500/Banner_fgzeao.jpg" alt="" className={styles.photo} />
+                <img src="https://res.cloudinary.com/dth5pbvch/image/upload/v1717974677/banner_eok4nk.jpg" alt="" className={styles.photo} />
             </div>
             <h3 className={styles.subtitle}>Front-End & App Developer</h3>
             <p className={styles.description}>{t('aboutDescription')}</p>
